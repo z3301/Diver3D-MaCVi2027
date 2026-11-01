@@ -1,0 +1,41 @@
+loaded runs/oof_f0/best_sds.pt (epoch 17, val {"SDS": 0.6359, "mAP3D": 0.6092, "AP3D@0.30": 0.7098, "AP3D@0.35": 0.6237, "AP3D@0.40": 0.494, "AP3D@0.50": 0.1492, "APBEV@0.30": 0.7953, "APBEV@0.35": 0.7592, "APBEV@0.40": 0.6884, "APBEV@0.50": 0.4834, "TP_IoU_3D": 0.4947, "ATE_m": 0.2059, "ASE": 0.352, "AOE_deg": 35.5115, "AOE3D_deg": 40.9005, "TILT_deg": 20.7379})
+wrote submissions/val/oof_f0_train.jsonl.gz (97493 boxes over 6949 frames)
+ "SDS": 0.6431,
+loaded runs/oof_f1/best_sds.pt (epoch 15, val {"SDS": 0.6866, "mAP3D": 0.6654, "AP3D@0.30": 0.7464, "AP3D@0.35": 0.6727, "AP3D@0.40": 0.577, "AP3D@0.50": 0.2218, "APBEV@0.30": 0.825, "APBEV@0.35": 0.7972, "APBEV@0.40": 0.7506, "APBEV@0.50": 0.5641, "TP_IoU_3D": 0.5147, "ATE_m": 0.1908, "ASE": 0.3213, "AOE_deg": 28.4615, "AOE3D_deg": 32.7973, "TILT_deg": 17.0886})
+wrote submissions/val/oof_f1_train.jsonl.gz (111795 boxes over 6534 frames)
+ "SDS": 0.8653,
+loaded runs/oof_f2/best_sds.pt (epoch 18, val {"SDS": 0.6054, "mAP3D": 0.554, "AP3D@0.30": 0.651, "AP3D@0.35": 0.5622, "AP3D@0.40": 0.4488, "AP3D@0.50": 0.1666, "APBEV@0.30": 0.7746, "APBEV@0.35": 0.7507, "APBEV@0.40": 0.6931, "APBEV@0.50": 0.5383, "TP_IoU_3D": 0.5075, "ATE_m": 0.1895, "ASE": 0.3456, "AOE_deg": 37.8133, "AOE3D_deg": 44.5002, "TILT_deg": 21.4556})
+wrote submissions/val/oof_f2_train.jsonl.gz (102731 boxes over 7378 frames)
+ "SDS": 0.8021,
+### train stage2 on out-of-fold proposals
+real proposals from detector outputs: 19085 (jittered GT items: 19482)
+real proposals from detector outputs: 7470 (jittered GT items: 7509)
+proposals: train 27264 val 7470
+ep 0 train loss 2.0703 | val loss 2.6375 corner err proposal 0.2478 -> refined 0.2506 | 7s
+ep 1 train loss 1.9752 | val loss 2.6109 corner err proposal 0.2478 -> refined 0.2479 | 6s
+ep 2 train loss 1.9606 | val loss 2.6158 corner err proposal 0.2478 -> refined 0.2473 | 6s
+ep 3 train loss 1.9449 | val loss 2.6049 corner err proposal 0.2478 -> refined 0.2470 | 6s
+ep 4 train loss 1.9262 | val loss 2.6062 corner err proposal 0.2478 -> refined 0.2459 | 6s
+ep 5 train loss 1.9052 | val loss 2.6172 corner err proposal 0.2478 -> refined 0.2469 | 6s
+ep 6 train loss 1.8914 | val loss 2.6107 corner err proposal 0.2478 -> refined 0.2459 | 6s
+ep 7 train loss 1.8640 | val loss 2.6143 corner err proposal 0.2478 -> refined 0.2477 | 6s
+ep 8 train loss 1.8471 | val loss 2.6191 corner err proposal 0.2478 -> refined 0.2459 | 6s
+ep 9 train loss 1.8159 | val loss 2.6350 corner err proposal 0.2478 -> refined 0.2482 | 6s
+ep 10 train loss 1.8012 | val loss 2.6170 corner err proposal 0.2478 -> refined 0.2469 | 6s
+ep 11 train loss 1.7866 | val loss 2.6110 corner err proposal 0.2478 -> refined 0.2465 | 6s
+ep 12 train loss 1.7686 | val loss 2.6187 corner err proposal 0.2478 -> refined 0.2465 | 5s
+ep 13 train loss 1.7622 | val loss 2.6151 corner err proposal 0.2478 -> refined 0.2469 | 6s
+ep 14 train loss 1.7570 | val loss 2.6202 corner err proposal 0.2478 -> refined 0.2470 | 6s
+ep 15 train loss 1.7540 | val loss 2.6191 corner err proposal 0.2478 -> refined 0.2469 | 6s
+### s2oof parts=dr blend=0.5
+after   SDS 0.7486 mAP3D 0.7828 AP35 0.7874 AP50 0.3086 ATE 0.178 ASE 0.329 AOE3D 31.5
+refined w=2 windows=[1, 5, 8] causal=False    SDS 0.7575 mAP3D 0.7936 AP35 0.8004 AP50 0.3321 ATE 0.178 ASE 0.324 AOE3D 30.0 TILT 13.8
+### s2oof parts=dr blend=1.0
+after   SDS 0.7482 mAP3D 0.7831 AP35 0.7911 AP50 0.3033 ATE 0.177 ASE 0.333 AOE3D 31.6
+refined w=2 windows=[1, 5, 8] causal=False    SDS 0.7594 mAP3D 0.7985 AP35 0.8082 AP50 0.3263 ATE 0.178 ASE 0.328 AOE3D 30.0 TILT 13.7
+### s2oof parts=cdr blend=0.5
+after   SDS 0.7498 mAP3D 0.7848 AP35 0.7887 AP50 0.3113 ATE 0.177 ASE 0.329 AOE3D 31.4
+refined w=2 windows=[1, 5, 8] causal=False    SDS 0.7581 mAP3D 0.7941 AP35 0.7987 AP50 0.3315 ATE 0.177 ASE 0.324 AOE3D 29.9 TILT 13.7
+### s2oof parts=cdr blend=1.0
+after   SDS 0.7472 mAP3D 0.7800 AP35 0.7871 AP50 0.3030 ATE 0.177 ASE 0.332 AOE3D 31.3
+refined w=2 windows=[1, 5, 8] causal=False    SDS 0.7593 mAP3D 0.7975 AP35 0.8080 AP50 0.3251 ATE 0.178 ASE 0.327 AOE3D 29.9 TILT 13.7

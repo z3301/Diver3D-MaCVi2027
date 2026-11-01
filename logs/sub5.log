@@ -1,0 +1,6 @@
+wrote submissions/ens5m_tta_test.jsonl.gz (512530 boxes over 8112 frames)
+wrote submissions/ens5m_tta_ref158_test.jsonl.gz
+cut done
+parsed 8112 frames / 16881 detections (0.7 MB on disk)
+  WARNING  307 frames contain no detections
+VALID (with warnings)

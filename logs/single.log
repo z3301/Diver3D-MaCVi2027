@@ -1,0 +1,15 @@
+### val: single + TTA
+loaded runs/vz025_mf2_floor0_a45/best_sds_e12.pt (epoch 12, val {"SDS": 0.6926, "mAP3D": 0.6887, "AP3D@0.30": 0.7748, "AP3D@0.35": 0.7105, "AP3D@0.40": 0.5807, "AP3D@0.50": 0.2189, "APBEV@0.30": 0.8573, "APBEV@0.35": 0.8349, "APBEV@0.40": 0.7805, "APBEV@0.50": 0.6358, "TP_IoU_3D": 0.5075, "ATE_m": 0.1872, "ASE": 0.3378, "AOE_deg": 31.6933, "AOE3D_deg": 34.6978, "TILT_deg": 16.2068})
+ "SDS": 0.717,
+### val: + refine 1 5 8
+raw                                           SDS 0.7170 mAP3D 0.7325 AP35 0.7467 AP50 0.2465 ATE 0.185 ASE 0.336 AOE3D 33.7 TILT 15.6
+refined w=2 windows=[1, 5, 8] causal=False    SDS 0.7328 mAP3D 0.7536 AP35 0.7610 AP50 0.2753 ATE 0.183 ASE 0.329 AOE3D 31.7 TILT 14.0
+### val: + thr 0.05 -> SDS 0.7320 mAP3D 0.7516 AP50 0.2748 ATE 0.183 ASE 0.329 AOE3D 31.6
+### test
+wrote submissions/single_a45e12_tta_test.jsonl.gz (99918 boxes over 8112 frames)
+wrote submissions/single_a45e12_tta_ref158_test.jsonl.gz
+cut done
+parsed 8112 frames / 18677 detections (0.7 MB on disk)
+  WARNING  360 frames contain no detections
+VALID (with warnings)
+### done

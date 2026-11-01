@@ -1,0 +1,14 @@
+wrote submissions/val/members/occl_sf_s1_p0_val.jsonl.gz 72353 boxes
+wrote submissions/val/members/occl_sf_s1_p1_val.jsonl.gz 70858 boxes
+wrote submissions/val/members/occl_f1_s1_p0_val.jsonl.gz 144682 boxes
+wrote submissions/val/members/occl_f1_s1_p1_val.jsonl.gz 143779 boxes
+### val: occl-only 8
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7448 mAP3D 0.7733 AP35 0.7799 AP50 0.2987 ATE 0.180 ASE 0.324 AOE3D 31.3 preds 16198
+### test file occl8
+wrote submissions/occl8_tta_test.jsonl.gz (544171 boxes over 8112 frames)
+wrote submissions/occl8_tta_ref158_test.jsonl.gz
+cut done submissions/occl8_tta_ref158_thr05_test.jsonl.gz
+parsed 8112 frames / 15224 detections (0.6 MB on disk)
+  WARNING  395 frames contain no detections
+VALID (with warnings)
+### done

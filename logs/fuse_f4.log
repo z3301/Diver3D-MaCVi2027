@@ -1,0 +1,6 @@
+wrote submissions/val/members/vz025_floor0_s2_p0_val.jsonl.gz 80647 boxes
+wrote submissions/val/members/vz025_floor0_s2_p1_val.jsonl.gz 85660 boxes
+### floor4: floor0 x3 + mf2_floor0
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7338 mAP3D 0.7533 AP35 0.7583 AP50 0.3055 ATE 0.179 ASE 0.329 AOE3D 31.5 preds 14645
+### legacy3 + floor0 + floor0_s2
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7449 mAP3D 0.7691 AP35 0.7727 AP50 0.3138 ATE 0.181 ASE 0.325 AOE3D 29.9 preds 17772

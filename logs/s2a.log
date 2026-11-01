@@ -1,0 +1,20 @@
+proposals: train 19482 val 7509
+ep 0 train loss 1.9929 | val loss 1.8082 corner err proposal 0.2114 -> refined 0.1728 | 11s
+ep 1 train loss 1.7142 | val loss 1.7647 corner err proposal 0.2114 -> refined 0.1695 | 10s
+ep 2 train loss 1.6783 | val loss 1.7219 corner err proposal 0.2114 -> refined 0.1638 | 10s
+ep 3 train loss 1.6429 | val loss 1.7301 corner err proposal 0.2114 -> refined 0.1665 | 10s
+ep 4 train loss 1.6292 | val loss 1.6826 corner err proposal 0.2114 -> refined 0.1611 | 10s
+ep 5 train loss 1.6077 | val loss 1.6926 corner err proposal 0.2114 -> refined 0.1621 | 10s
+ep 6 train loss 1.5806 | val loss 1.6728 corner err proposal 0.2114 -> refined 0.1593 | 10s
+ep 7 train loss 1.5607 | val loss 1.6660 corner err proposal 0.2114 -> refined 0.1584 | 10s
+ep 8 train loss 1.5448 | val loss 1.6566 corner err proposal 0.2114 -> refined 0.1578 | 10s
+ep 9 train loss 1.5348 | val loss 1.6481 corner err proposal 0.2114 -> refined 0.1573 | 10s
+ep 10 train loss 1.5211 | val loss 1.6388 corner err proposal 0.2114 -> refined 0.1557 | 10s
+ep 11 train loss 1.5121 | val loss 1.6401 corner err proposal 0.2114 -> refined 0.1559 | 10s
+### apply s2a to fused_mixed7_raw (val)
+before  SDS 0.7460 mAP3D 0.7766 AP35 0.7815 AP50 0.3084 ATE 0.178 ASE 0.327 AOE3D 31.5
+after   SDS 0.7305 mAP3D 0.7514 AP35 0.7637 AP50 0.2855 ATE 0.190 ASE 0.324 AOE3D 32.2
+### blend 0.5
+after   SDS 0.7464 mAP3D 0.7762 AP35 0.7839 AP50 0.3302 ATE 0.180 ASE 0.320 AOE3D 31.5
+### 2 iterations
+after   SDS 0.6945 mAP3D 0.6953 AP35 0.7121 AP50 0.2158 ATE 0.188 ASE 0.355 AOE3D 33.7

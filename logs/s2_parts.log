@@ -1,0 +1,24 @@
+### parts=d blend=0.5 (raw input)
+after   SDS 0.7471 mAP3D 0.7775 AP35 0.7899 AP50 0.3287 ATE 0.179 ASE 0.321 AOE3D 31.5
+### + window refine (1,5,8)
+refined w=2 windows=[1, 5, 8] causal=False    SDS 0.7567 mAP3D 0.7884 AP35 0.8013 AP50 0.3494 ATE 0.179 ASE 0.313 AOE3D 30.0 TILT 13.8
+### parts=d blend=1.0 (raw input)
+after   SDS 0.7424 mAP3D 0.7697 AP35 0.7881 AP50 0.3217 ATE 0.178 ASE 0.327 AOE3D 31.5
+### + window refine (1,5,8)
+refined w=2 windows=[1, 5, 8] causal=False    SDS 0.7535 mAP3D 0.7822 AP35 0.8009 AP50 0.3467 ATE 0.179 ASE 0.314 AOE3D 30.0 TILT 13.8
+### parts=r blend=0.5 (raw input)
+after   SDS 0.7472 mAP3D 0.7800 AP35 0.7859 AP50 0.3161 ATE 0.178 ASE 0.327 AOE3D 31.7
+### + window refine (1,5,8)
+refined w=2 windows=[1, 5, 8] causal=False    SDS 0.7559 mAP3D 0.7900 AP35 0.7968 AP50 0.3377 ATE 0.179 ASE 0.321 AOE3D 30.1 TILT 13.5
+### parts=r blend=1.0 (raw input)
+after   SDS 0.7459 mAP3D 0.7804 AP35 0.7875 AP50 0.3189 ATE 0.179 ASE 0.326 AOE3D 32.4
+### + window refine (1,5,8)
+refined w=2 windows=[1, 5, 8] causal=False    SDS 0.7553 mAP3D 0.7909 AP35 0.7978 AP50 0.3435 ATE 0.179 ASE 0.321 AOE3D 30.7 TILT 13.7
+### parts=dr blend=0.5 (raw input)
+after   SDS 0.7482 mAP3D 0.7801 AP35 0.7920 AP50 0.3349 ATE 0.178 ASE 0.321 AOE3D 31.6
+### + window refine (1,5,8)
+refined w=2 windows=[1, 5, 8] causal=False    SDS 0.7581 mAP3D 0.7916 AP35 0.8034 AP50 0.3572 ATE 0.179 ASE 0.313 AOE3D 30.1 TILT 13.5
+### parts=dr blend=1.0 (raw input)
+after   SDS 0.7419 mAP3D 0.7719 AP35 0.7890 AP50 0.3307 ATE 0.178 ASE 0.327 AOE3D 32.3
+### + window refine (1,5,8)
+refined w=2 windows=[1, 5, 8] causal=False    SDS 0.7541 mAP3D 0.7858 AP35 0.8026 AP50 0.3604 ATE 0.179 ASE 0.314 AOE3D 30.6 TILT 13.6

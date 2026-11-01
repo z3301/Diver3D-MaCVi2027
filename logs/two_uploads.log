@@ -1,0 +1,26 @@
+### A: last-epoch floor-1 ensemble (6), val
+loaded runs/vz025/last.pt (epoch 19, val {"SDS": 0.6804, "mAP3D": 0.6601, "AP3D@0.30": 0.7498, "AP3D@0.35": 0.6719, "AP3D@0.40": 0.5587, "AP3D@0.50": 0.1991, "APBEV@0.30": 0.8195, "APBEV@0.35": 0.7923, "APBEV@0.40": 0.7311, "APBEV@0.50": 0.5462, "TP_IoU_3D": 0.5067, "ATE_m": 0.1904, "ASE": 0.3375, "AOE_deg": 29.1223, "AOE3D_deg": 33.3305, "TILT_deg": 17.5791})
+loaded runs/vz025_s1/last.pt (epoch 19, val {"SDS": 0.6606, "mAP3D": 0.6343, "AP3D@0.30": 0.7339, "AP3D@0.35": 0.6505, "AP3D@0.40": 0.5186, "AP3D@0.50": 0.1964, "APBEV@0.30": 0.8306, "APBEV@0.35": 0.7935, "APBEV@0.40": 0.7153, "APBEV@0.50": 0.5505, "TP_IoU_3D": 0.5035, "ATE_m": 0.1916, "ASE": 0.3423, "AOE_deg": 32.6153, "AOE3D_deg": 36.4856, "TILT_deg": 17.2047})
+loaded runs/vz025_mf2/last.pt (epoch 19, val {"SDS": 0.6823, "mAP3D": 0.6599, "AP3D@0.30": 0.7467, "AP3D@0.35": 0.673, "AP3D@0.40": 0.5602, "AP3D@0.50": 0.2255, "APBEV@0.30": 0.8203, "APBEV@0.35": 0.7844, "APBEV@0.40": 0.7315, "APBEV@0.50": 0.5518, "TP_IoU_3D": 0.5106, "ATE_m": 0.1844, "ASE": 0.3383, "AOE_deg": 28.282, "AOE3D_deg": 32.6998, "TILT_deg": 16.9371})
+loaded runs/occl_f1/last.pt (epoch 19, val {"SDS": 0.6479, "mAP3D": 0.5978, "AP3D@0.30": 0.7069, "AP3D@0.35": 0.6111, "AP3D@0.40": 0.4755, "AP3D@0.50": 0.1706, "APBEV@0.30": 0.7956, "APBEV@0.35": 0.7508, "APBEV@0.40": 0.6698, "APBEV@0.50": 0.4942, "TP_IoU_3D": 0.5027, "ATE_m": 0.1933, "ASE": 0.3424, "AOE_deg": 28.6963, "AOE3D_deg": 33.3346, "TILT_deg": 17.8834})
+loaded runs/occl_f1_s1/last.pt (epoch 19, val {"SDS": 0.6802, "mAP3D": 0.6628, "AP3D@0.30": 0.7534, "AP3D@0.35": 0.6823, "AP3D@0.40": 0.5526, "AP3D@0.50": 0.1893, "APBEV@0.30": 0.8181, "APBEV@0.35": 0.7852, "APBEV@0.40": 0.7501, "APBEV@0.50": 0.5772, "TP_IoU_3D": 0.5065, "ATE_m": 0.1847, "ASE": 0.3529, "AOE_deg": 29.1292, "AOE3D_deg": 33.239, "TILT_deg": 17.1609})
+loaded runs/occl_f1a45/last.pt (epoch 19, val {"SDS": 0.6601, "mAP3D": 0.6305, "AP3D@0.30": 0.7356, "AP3D@0.35": 0.6375, "AP3D@0.40": 0.5186, "AP3D@0.50": 0.1721, "APBEV@0.30": 0.8112, "APBEV@0.35": 0.7817, "APBEV@0.40": 0.7335, "APBEV@0.50": 0.5655, "TP_IoU_3D": 0.5062, "ATE_m": 0.1853, "ASE": 0.3441, "AOE_deg": 31.5446, "AOE3D_deg": 36.1202, "TILT_deg": 18.5276})
+ "SDS": 0.7261,
+refined w=2 windows=[1, 5, 8] causal=False    SDS 0.7361 mAP3D 0.7513 AP35 0.7570 AP50 0.2868 ATE 0.179 ASE 0.329 AOE3D 29.6 TILT 13.9
+### A: test
+wrote submissions/last6_tta_test.jsonl.gz (582079 boxes over 8112 frames)
+wrote submissions/last6_tta_ref158_test.jsonl.gz
+cut done submissions/last6_tta_ref158_thr05_test.jsonl.gz
+parsed 8112 frames / 18757 detections (0.8 MB on disk)
+  WARNING  213 frames contain no detections
+VALID (with warnings)
+### B: val-fitted range-binned size+centre correction applied to ens9o
+  bin (0, 2.5): dz -0.058 scale [0.976 0.996 0.998]
+  bin (2.5, 4): dz -0.036 scale [0.944 1.074 0.961]
+  bin (4, 99): dz -0.117 scale [0.902 0.961 1.01 ]
+  val in-sample: 0.7550 -> 0.7571 (AP35 0.7942 -> 0.7926)
+  wrote submissions/ens9o_calib_tta_ref158_thr05_test.jsonl.gz
+parsed 8112 frames / 15318 detections (0.6 MB on disk)
+  WARNING  389 frames contain no detections
+VALID (with warnings)
+### done

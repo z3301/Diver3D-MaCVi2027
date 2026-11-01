@@ -1,0 +1,21 @@
+### seeds finished: s3 best: {'SDS': np.float64(0.6727371851438607), 'AP3D@0.35': 0.6801289097546969} | s4 best: {'SDS': np.float64(0.6566163094467835), 'AP3D@0.35': 0.6592592086718028}
+loaded runs/vz025_mf2_floor0_a45_s3/best_sds.pt (epoch 13, val {"SDS": 0.6727, "mAP3D": 0.6615, "AP3D@0.30": 0.7577, "AP3D@0.35": 0.6801, "AP3D@0.40": 0.5466, "AP3D@0.50": 0.2143, "APBEV@0.30": 0.8272, "APBEV@0.35": 0.7955, "APBEV@0.40": 0.7415, "APBEV@0.50": 0.5509, "TP_IoU_3D": 0.5041, "ATE_m": 0.1972, "ASE": 0.3279, "AOE_deg": 33.2533, "AOE3D_deg": 38.0571, "TILT_deg": 19.4108})
+loaded runs/vz025_mf2_floor0_a45_s4/best_sds.pt (epoch 14, val {"SDS": 0.6566, "mAP3D": 0.6463, "AP3D@0.30": 0.7352, "AP3D@0.35": 0.6593, "AP3D@0.40": 0.5444, "AP3D@0.50": 0.1936, "APBEV@0.30": 0.8086, "APBEV@0.35": 0.786, "APBEV@0.40": 0.7346, "APBEV@0.50": 0.5706, "TP_IoU_3D": 0.5008, "ATE_m": 0.1932, "ASE": 0.3419, "AOE_deg": 36.7543, "AOE3D_deg": 41.7744, "TILT_deg": 20.3782})
+wrote submissions/val/members/vz025_mf2_floor0_a45_s3_p0_val.jsonl.gz 97621 boxes
+wrote submissions/val/members/vz025_mf2_floor0_a45_s3_p1_val.jsonl.gz 96641 boxes
+wrote submissions/val/members/vz025_mf2_floor0_a45_s4_p0_val.jsonl.gz 68607 boxes
+wrote submissions/val/members/vz025_mf2_floor0_a45_s4_p1_val.jsonl.gz 63309 boxes
+### mixed9 = mixed7 + a45_s3 + a45_s4 (raw fused, no refine)
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine False: SDS 0.7452 mAP3D 0.7767 AP35 0.7846 AP50 0.3075 ATE 0.178 ASE 0.326 AOE3D 32.0 preds 16577
+### mixed9 + s2a dr/0.5 + refine 1 5 8 (compare 0.7581)
+after   SDS 0.7483 mAP3D 0.7818 AP35 0.7928 AP50 0.3378 ATE 0.179 ASE 0.320 AOE3D 32.1
+refined w=2 windows=[1, 5, 8] causal=False    SDS 0.7569 mAP3D 0.7910 AP35 0.8007 AP50 0.3587 ATE 0.180 ASE 0.312 AOE3D 30.6 TILT 13.5
+### test file ens9m
+wrote submissions/ens9m_tta_test.jsonl.gz (675240 boxes over 8112 frames)
+wrote submissions/ens9m_s2dr_test.jsonl.gz
+wrote submissions/ens9m_s2dr_ref158_test.jsonl.gz
+cut done
+parsed 8112 frames / 15125 detections (0.6 MB on disk)
+  WARNING  401 frames contain no detections
+VALID (with warnings)
+### done

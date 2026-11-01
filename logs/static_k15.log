@@ -1,0 +1,18 @@
+/raid/scratch/dzimmerman2021/Diver3D/analysis/static.py:51: RuntimeWarning: All-NaN slice encountered
+  bg = np.nanmedian(stack, 0)
+TP        n  6011 (score>=0.3): static frac mean 0.404 median 0.410 | share > 0.5: 0.394 | share > 0.8: 0.035
+FP        n  1215 (score>=0.3): static frac mean 0.293 median 0.277 | share > 0.5: 0.201 | share > 0.8: 0.000
+FP-empty  n  1395 (score>=0.3): static frac mean 0.364 median 0.364 | share > 0.5: 0.333 | share > 0.8: 0.001
+per scene, confident dets: mean static frac TP / FP(all):
+  scene_0000: TP 0.565 (n 1622) | FP 0.291 (n 221)
+  scene_0043: TP 0.257 (n 1934) | FP 0.155 (n 461)
+  scene_0048: TP 0.629 (n 665) | FP 0.374 (n 55)
+  scene_0068: TP 0.422 (n 829) | FP 0.422 (n 338)
+  scene_0075: TP 0.568 (n 49) | FP 0.400 (n 929)
+  scene_0080: TP 0.478 (n 28) | FP 0.405 (n 405)
+  scene_0082: TP 0.233 (n 884) | FP 0.144 (n 201)
+
+base: SDS 0.7405 AP35 0.7688 APBEV35 0.8608
+rescored lam 0.3: SDS 0.7270 (-0.0135) AP35 0.7418 (-0.0271) APBEV35 0.8354 (-0.0253)
+rescored lam 0.6: SDS 0.7092 (-0.0313) AP35 0.7056 (-0.0632) APBEV35 0.7989 (-0.0619)
+rescored lam 1.0: SDS 0.6766 (-0.0639) AP35 0.6394 (-0.1294) APBEV35 0.7278 (-0.1329)

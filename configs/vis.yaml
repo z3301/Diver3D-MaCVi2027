@@ -1,0 +1,77 @@
+# vz025_mf2_floor0_a45 + ray-cast beam visibility channels (free/shadow/observed) into the 3D CNN
+data_root: data/diver3d_v2_extracted/diver3d_v2
+grid:
+  xmin: 0.0
+  xmax: 12.0
+  ymin: -5.0
+  ymax: 5.0
+  zmin: -2.5
+  zmax: 2.5
+  vx: 0.1
+  vy: 0.1
+  vz: 0.25
+out_stride: 2
+max_objs: 16
+model:
+  vfe_ch:
+  - 64
+  - 128
+  bb3d_ch: 64
+  neck_ch: 128
+  neck_blocks:
+  - 4
+  - 6
+  - 6
+  neck_up_ch: 256
+  head_ch: 64
+  visibility: true
+loss:
+  alpha: 2.0
+  beta: 4.0
+  gaussian_min_overlap: 0.7
+  min_radius: 1
+  hm_weight: 1.0
+  reg_weight: 1.0
+  rot_weight: 1.0
+  rot_sym: true
+aug:
+  enable: true
+  flip_y: 0.5
+  rot_z_deg: 5.0
+  rot_y_deg: 3.0
+  rot_x_deg: 5.0
+  scale:
+  - 1.0
+  - 1.0
+  point_drop_max: 0.15
+  intensity_jitter: 0.1
+  gt_sample:
+    enable: true
+    target_max: 4
+    anneal_start_frac: 0.45
+    floor: 0
+    min_points: 20
+    crop_margin: 0.1
+    bearing_max_deg: 40.0
+    elev_jitter_deg: 8.0
+    range_scale:
+    - 0.85
+    - 1.15
+train:
+  epochs: 20
+  batch_size: 8
+  lr: 0.001
+  weight_decay: 0.01
+  clip_grad: 35.0
+  workers: 8
+  amp: false
+  seed: 0
+  pct_start: 0.3
+  log_every: 100
+decode:
+  max_dets: 100
+  score_thr: 0.1
+  nms_bev_iou: 0.1
+  topk: 100
+data:
+  n_prev: 2

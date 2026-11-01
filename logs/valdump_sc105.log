@@ -1,0 +1,21 @@
+loaded runs/vz025/best_sds.pt (epoch 16, val {"SDS": 0.6827, "mAP3D": 0.6585, "AP3D@0.30": 0.7455, "AP3D@0.35": 0.6689, "AP3D@0.40": 0.5611, "AP3D@0.50": 0.2104, "APBEV@0.30": 0.8262, "APBEV@0.35": 0.7982, "APBEV@0.40": 0.7371, "APBEV@0.50": 0.5472, "TP_IoU_3D": 0.5083, "ATE_m": 0.1883, "ASE": 0.3344, "AOE_deg": 27.9165, "AOE3D_deg": 32.0681, "TILT_deg": 16.8396})
+loaded runs/vz025_s1/best_sds.pt (epoch 15, val {"SDS": 0.6744, "mAP3D": 0.6621, "AP3D@0.30": 0.762, "AP3D@0.35": 0.6744, "AP3D@0.40": 0.55, "AP3D@0.50": 0.1953, "APBEV@0.30": 0.8495, "APBEV@0.35": 0.8205, "APBEV@0.40": 0.7576, "APBEV@0.50": 0.5991, "TP_IoU_3D": 0.5029, "ATE_m": 0.1985, "ASE": 0.3471, "AOE_deg": 32.7724, "AOE3D_deg": 35.489, "TILT_deg": 15.1715})
+loaded runs/vz025_mf2/best_sds.pt (epoch 15, val {"SDS": 0.7, "mAP3D": 0.6902, "AP3D@0.30": 0.7781, "AP3D@0.35": 0.7043, "AP3D@0.40": 0.5883, "AP3D@0.50": 0.2437, "APBEV@0.30": 0.8394, "APBEV@0.35": 0.7904, "APBEV@0.40": 0.7271, "APBEV@0.50": 0.5466, "TP_IoU_3D": 0.5114, "ATE_m": 0.1809, "ASE": 0.3372, "AOE_deg": 27.1194, "AOE3D_deg": 31.7052, "TILT_deg": 17.3937})
+loaded runs/vz025_floor0/best_sds.pt (epoch 16, val {"SDS": 0.6747, "mAP3D": 0.6562, "AP3D@0.30": 0.7588, "AP3D@0.35": 0.6649, "AP3D@0.40": 0.5451, "AP3D@0.50": 0.2052, "APBEV@0.30": 0.8443, "APBEV@0.35": 0.8087, "APBEV@0.40": 0.757, "APBEV@0.50": 0.5869, "TP_IoU_3D": 0.5042, "ATE_m": 0.1919, "ASE": 0.3458, "AOE_deg": 30.2131, "AOE3D_deg": 34.4784, "TILT_deg": 17.6633})
+loaded runs/vz025_mf2_floor0_a45/best_sds.pt (epoch 12, val {"SDS": 0.6926, "mAP3D": 0.6887, "AP3D@0.30": 0.7748, "AP3D@0.35": 0.7105, "AP3D@0.40": 0.5807, "AP3D@0.50": 0.2189, "APBEV@0.30": 0.8573, "APBEV@0.35": 0.8349, "APBEV@0.40": 0.7805, "APBEV@0.50": 0.6358, "TP_IoU_3D": 0.5075, "ATE_m": 0.1872, "ASE": 0.3378, "AOE_deg": 31.6933, "AOE3D_deg": 34.6978, "TILT_deg": 16.2068})
+loaded runs/vz025_mf2_floor0_a45_s1/best_sds.pt (epoch 13, val {"SDS": 0.655, "mAP3D": 0.623, "AP3D@0.30": 0.7229, "AP3D@0.35": 0.6353, "AP3D@0.40": 0.5108, "AP3D@0.50": 0.1966, "APBEV@0.30": 0.8019, "APBEV@0.35": 0.7716, "APBEV@0.40": 0.7227, "APBEV@0.50": 0.5553, "TP_IoU_3D": 0.5023, "ATE_m": 0.1876, "ASE": 0.3366, "AOE_deg": 32.4059, "AOE3D_deg": 37.3472, "TILT_deg": 20.0041})
+loaded runs/vz025_mf2_floor0_a45_s2/best_sds.pt (epoch 15, val {"SDS": 0.6697, "mAP3D": 0.6707, "AP3D@0.30": 0.7639, "AP3D@0.35": 0.6847, "AP3D@0.40": 0.5634, "AP3D@0.50": 0.2214, "APBEV@0.30": 0.8339, "APBEV@0.35": 0.7957, "APBEV@0.40": 0.7427, "APBEV@0.50": 0.5478, "TP_IoU_3D": 0.5077, "ATE_m": 0.1766, "ASE": 0.3521, "AOE_deg": 36.6691, "AOE3D_deg": 41.8748, "TILT_deg": 19.9253})
+wrote submissions/val/members/vz025_sc105_p0_val.jsonl.gz 110302 boxes
+wrote submissions/val/members/vz025_sc105_p1_val.jsonl.gz 118602 boxes
+wrote submissions/val/members/vz025_s1_sc105_p0_val.jsonl.gz 174609 boxes
+wrote submissions/val/members/vz025_s1_sc105_p1_val.jsonl.gz 171947 boxes
+wrote submissions/val/members/vz025_mf2_sc105_p0_val.jsonl.gz 109741 boxes
+wrote submissions/val/members/vz025_mf2_sc105_p1_val.jsonl.gz 107283 boxes
+wrote submissions/val/members/vz025_floor0_sc105_p0_val.jsonl.gz 68749 boxes
+wrote submissions/val/members/vz025_floor0_sc105_p1_val.jsonl.gz 66629 boxes
+wrote submissions/val/members/vz025_mf2_floor0_a45_sc105_p0_val.jsonl.gz 86918 boxes
+wrote submissions/val/members/vz025_mf2_floor0_a45_sc105_p1_val.jsonl.gz 86017 boxes
+wrote submissions/val/members/vz025_mf2_floor0_a45_s1_sc105_p0_val.jsonl.gz 79325 boxes
+wrote submissions/val/members/vz025_mf2_floor0_a45_s1_sc105_p1_val.jsonl.gz 77641 boxes
+wrote submissions/val/members/vz025_mf2_floor0_a45_s2_sc105_p0_val.jsonl.gz 66519 boxes
+wrote submissions/val/members/vz025_mf2_floor0_a45_s2_sc105_p1_val.jsonl.gz 73264 boxes

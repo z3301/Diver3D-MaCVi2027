@@ -1,0 +1,11 @@
+### polar seed0 finished: best: {'SDS': np.float64(0.6385345676906985), 'AP3D@0.35': 0.6089902451253371}
+loaded runs/polar_mf2_floor0/best_sds.pt (epoch 18, val {"SDS": 0.6385, "mAP3D": 0.5976, "AP3D@0.30": 0.7038, "AP3D@0.35": 0.609, "AP3D@0.40": 0.4801, "AP3D@0.50": 0.193, "APBEV@0.30": 0.7843, "APBEV@0.35": 0.7425, "APBEV@0.40": 0.6839, "APBEV@0.50": 0.5195, "TP_IoU_3D": 0.5049, "ATE_m": 0.1868, "ASE": 0.357, "AOE_deg": 33.7681, "AOE3D_deg": 37.6106, "TILT_deg": 17.3333})
+wrote submissions/val/members/polar_mf2_floor0_p0_val.jsonl.gz 49396 boxes
+wrote submissions/val/members/polar_mf2_floor0_p1_val.jsonl.gz 50104 boxes
+### polar alone (TTA, fused+refined)
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.6807 mAP3D 0.6651 AP35 0.6705 AP50 0.2470 ATE 0.183 ASE 0.342 AOE3D 34.7 preds 11681
+### mixed7 + polar
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7545 mAP3D 0.7867 AP35 0.7921 AP50 0.3353 ATE 0.177 ASE 0.322 AOE3D 30.0 preds 16457
+### mixed7 reference
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7550 mAP3D 0.7877 AP35 0.7942 AP50 0.3319 ATE 0.179 ASE 0.321 AOE3D 30.0 preds 17043
+### done

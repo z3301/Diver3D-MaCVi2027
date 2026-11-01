@@ -1,0 +1,24 @@
+prediction file submissions/val/ens_mixed7_val.jsonl.gz; val frames 8037, boxes 7509
+base: SDS 0.7550 AP35 0.7942 APBEV35 0.8813
+
+[1] matched boxes (3D IoU > 0): 7488 over 7 recordings
+  dw  : partial R2 of recording given covariates 0.638; conditional ICC 0.819; recording-effect SD (variance parameter) 0.298, SD of the 7 BLUPs 0.299
+        BLUPs: 0000 -0.382 0043 -0.139 0048 +0.042 0068 -0.143 0075 +0.199 0080 +0.542 0082 -0.120
+  lgw : partial R2 of recording given covariates 0.659; conditional ICC 0.847; recording-effect SD (variance parameter) 0.295, SD of the 7 BLUPs 0.296
+        BLUPs: 0000 +0.340 0043 +0.237 0048 -0.088 0068 +0.135 0075 -0.172 0080 -0.541 0082 +0.089
+  lpw : partial R2 of recording given covariates 0.149; conditional ICC 0.191; recording-effect SD (variance parameter) 0.050, SD of the 7 BLUPs 0.050
+        BLUPs: 0000 -0.042 0043 +0.098 0048 -0.045 0068 -0.008 0075 +0.026 0080 +0.002 0082 -0.031
+  correlation of labelled vs predicted recording effects across the 7 recordings: r = +0.04
+
+[2] GT per-frame dims: SDS 0.8274 (+0.0724)
+[2] GT track-mean dims: SDS 0.7873 (+0.0323)
+
+[3] drop dets in GT-empty frames and far from any GT: AP35 0.8534 (+0.0593), APBEV35 +0.0686, SDS +0.0295
+    GT-empty frames: val 2083 of 8037
+
+[4] label-to-no-label transitions (per labelled diver): 72; with a confident detection (mean score >= 0.3 over the next 5 unlabelled frames, within 0.5 m): 19
+    longest unlabelled run per recording: 0000 35 0043 69 0048 71 0068 147 0075 651 0080 45 0082 76
+[5] range 0-1.5 m: n    78, median predicted/labelled BEV footprint area 1.52
+[5] range 1.5-2.0 m: n  1260, median predicted/labelled BEV footprint area 1.59
+[5] range 2.0-3.0 m: n  3137, median predicted/labelled BEV footprint area 0.99
+[5] range 3.0-99 m: n  3015, median predicted/labelled BEV footprint area 1.03

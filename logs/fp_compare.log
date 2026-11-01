@@ -1,0 +1,21 @@
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7420 mAP3D 0.7634 AP35 0.7683 AP50 0.3058 ATE 0.182 ASE 0.323 AOE3D 30.0 preds 19863
+### legacy3
+false positives with score >= 0.3: 3137  (TPs at this thr: 6212)
+  on empty frames: 0.574
+  empty frames: 2083; top score >= 0.3 on 0.713, >= 0.5 on 0.162
+  scene_0075: frames  1174 gt   133 upright 0.14 | SDS 0.397 mAP3D 0.083 AP35 0.066 AP50 0.002 AOE3D 22.1
+  scene_0080: frames   338 gt   496 upright 0.16 | SDS 0.374 mAP3D 0.062 AP35 0.011 AP50 0.000 AOE3D 22.8
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7448 mAP3D 0.7686 AP35 0.7715 AP50 0.3125 ATE 0.181 ASE 0.325 AOE3D 29.8 preds 18410
+### mixed4
+false positives with score >= 0.3: 2531  (TPs at this thr: 6076)
+  on empty frames: 0.535
+  empty frames: 2083; top score >= 0.3 on 0.578, >= 0.5 on 0.089
+  scene_0075: frames  1174 gt   133 upright 0.14 | SDS 0.427 mAP3D 0.143 AP35 0.133 AP50 0.000 AOE3D 20.5
+  scene_0080: frames   338 gt   496 upright 0.16 | SDS 0.375 mAP3D 0.064 AP35 0.011 AP50 0.000 AOE3D 22.5
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7299 mAP3D 0.7483 AP35 0.7562 AP50 0.2995 ATE 0.178 ASE 0.329 AOE3D 32.3 preds 14518
+### floor3
+false positives with score >= 0.3: 1358  (TPs at this thr: 5421)
+  on empty frames: 0.334
+  empty frames: 2083; top score >= 0.3 on 0.210, >= 0.5 on 0.037
+  scene_0075: frames  1174 gt   133 upright 0.14 | SDS 0.467 mAP3D 0.224 AP35 0.204 AP50 0.015 AOE3D 25.0
+  scene_0080: frames   338 gt   496 upright 0.16 | SDS 0.375 mAP3D 0.066 AP35 0.018 AP50 0.000 AOE3D 22.3

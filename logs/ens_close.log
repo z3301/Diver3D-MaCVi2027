@@ -1,0 +1,9 @@
+wrote submissions/val/members/polar_mf2_floor0_s1_p0_val.jsonl.gz 52932 boxes
+wrote submissions/val/members/polar_mf2_floor0_s1_p1_val.jsonl.gz 53391 boxes
+wrote submissions/val/members/vz025_mf2_floor0_short3_p0_val.jsonl.gz 53944 boxes
+wrote submissions/val/members/vz025_mf2_floor0_short3_p1_val.jsonl.gz 57721 boxes
+### mixed7 + polar s0 + polar s1
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7539 mAP3D 0.7857 AP35 0.7913 AP50 0.3337 ATE 0.177 ASE 0.324 AOE3D 29.9 preds 16069
+### mixed7 + short3
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7529 mAP3D 0.7840 AP35 0.7910 AP50 0.3228 ATE 0.178 ASE 0.322 AOE3D 30.1 preds 16655
+### done

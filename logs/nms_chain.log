@@ -1,0 +1,39 @@
+### test dumps complete 02:36
+### label-free suppressed-pair statistic on test (scale 1.0 members)
+test: 18 member passes; suppressed close-pair candidates (score >= 0.3, 0.35-1.2 m) per frame per pass
+  scene_0019: frames   565 | suppressed/frame 0.0478 | frames with any 0.0477
+  scene_0021: frames  3512 | suppressed/frame 0.0064 | frames with any 0.0063
+  scene_0042: frames   708 | suppressed/frame 0.0027 | frames with any 0.0027
+  scene_0049: frames   554 | suppressed/frame 0.0053 | frames with any 0.0053
+  scene_0064: frames   366 | suppressed/frame 0.0030 | frames with any 0.0030
+  scene_0070: frames    44 | suppressed/frame 0.0000 | frames with any 0.0000
+  scene_0076: frames   199 | suppressed/frame 0.0020 | frames with any 0.0020
+  scene_0090: frames  2164 | suppressed/frame 0.0046 | frames with any 0.0046
+  all: suppressed/frame 0.0081
+### test files
+parsed 8112 frames / 15072 detections (0.6 MB on disk)
+score range [0.050, 0.819]; median extents [0.82, 0.78, 1.6] m; median centre [2.78, -0.3, 0.07] m
+  WARNING  422 frames contain no detections
+
+VALID (with warnings)
+parsed 8112 frames / 15724 detections (0.6 MB on disk)
+score range [0.050, 0.819]; median extents [0.82, 0.78, 1.59] m; median centre [2.75, -0.29, 0.07] m
+  WARNING  412 frames contain no detections
+
+VALID (with warnings)
+parsed 8112 frames / 15901 detections (0.6 MB on disk)
+score range [0.050, 0.824]; median extents [0.83, 0.79, 1.62] m; median centre [2.85, -0.3, 0.07] m
+  WARNING  385 frames contain no detections
+
+VALID (with warnings)
+### val: mixed7 + sc105 members at nms 0.1 vs 0.3
+wrote submissions/val/ens_mixed7_sc105_nms01_val.jsonl.gz 16964 boxes
+val: SDS 0.7599 AP35 0.8041 APBEV35 0.8913 AP50 0.3320 ASE 0.322 AOE3D 29.9
+wrote submissions/val/ens_mixed7_sc105_nms03_val.jsonl.gz 17589 boxes
+val: SDS 0.7597 AP35 0.8038 APBEV35 0.8911 AP50 0.3319 ASE 0.322 AOE3D 29.9
+wrote submissions/val/ens_mixed7_nms03_val.jsonl.gz 17710 boxes
+val: SDS 0.7550 AP35 0.7947 APBEV35 0.8818 AP50 0.3322 ASE 0.321 AOE3D 30.0
+submissions/val/ens_mixed7_sc105_nms03_val.jsonl.gz: SDS 0.7597 (-0.0001) AP35 0.8038 (-0.0003) AP30 -0.0001 AP40 -0.0000 APBEV35 0.8911 (-0.0002) ATE 0.176 ASE 0.322 AOE3D 29.9
+per-scene dSDS: 0000 -0.0001 0043 -0.0000 0048 -0.0006 0068 -0.0002 0075 -0.0001 0080 -0.0005 0082 -0.0001 | up 0/7
+per-scene dAP35: 0000 -0.0001 0043 -0.0001 0048 -0.0011 0068 -0.0004 0075 -0.0001 0080 -0.0009 0082 +0.0000
+### done 03:05

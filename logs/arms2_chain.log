@@ -1,0 +1,46 @@
+### beamdrop trained
+loaded runs/a45_beamdrop_s0/best_sds.pt (epoch 16, val {"SDS": 0.6514, "mAP3D": 0.6147, "AP3D@0.30": 0.7179, "AP3D@0.35": 0.6269, "AP3D@0.40": 0.4992, "AP3D@0.50": 0.1935, "APBEV@0.30": 0.8067, "APBEV@0.35": 0.7767, "APBEV@0.40": 0.7235, "APBEV@0.50": 0.5429, "TP_IoU_3D": 0.5075, "ATE_m": 0.1911, "ASE": 0.3384, "AOE_deg": 33.5284, "AOE3D_deg": 36.5592, "TILT_deg": 17.7592})
+loaded runs/a45_beamdrop_s1/best_sds.pt (epoch 13, val {"SDS": 0.6407, "mAP3D": 0.6039, "AP3D@0.30": 0.6942, "AP3D@0.35": 0.6182, "AP3D@0.40": 0.4995, "AP3D@0.50": 0.1686, "APBEV@0.30": 0.7685, "APBEV@0.35": 0.7389, "APBEV@0.40": 0.6787, "APBEV@0.50": 0.5064, "TP_IoU_3D": 0.5006, "ATE_m": 0.2011, "ASE": 0.3315, "AOE_deg": 31.6425, "AOE3D_deg": 39.1668, "TILT_deg": 22.7149})
+wrote submissions/val/members/a45_beamdrop_s0_p0_val.jsonl.gz 63074 boxes
+wrote submissions/val/members/a45_beamdrop_s0_p1_val.jsonl.gz 65651 boxes
+wrote submissions/val/members/a45_beamdrop_s1_p0_val.jsonl.gz 79831 boxes
+wrote submissions/val/members/a45_beamdrop_s1_p1_val.jsonl.gz 77605 boxes
+beamdrop_s0 paired near-range:
+r < 2.0 m    n= 1352 | BEV IoU A 0.516 B 0.507 paired diff mean +0.009 median +0.009 improved 0.56 | 3D IoU A 0.432 B 0.427 diff +0.005 | found@0.35 A 0.675 B 0.723
+all ranges   n= 7509 | BEV IoU A 0.590 B 0.588 paired diff mean +0.002 median +0.003 improved 0.52 | 3D IoU A 0.468 B 0.469 diff -0.001 | found@0.35 A 0.836 B 0.879
+reference models averaged: 4
+beamdrop_s1 paired near-range:
+r < 2.0 m    n= 1352 | BEV IoU A 0.495 B 0.507 paired diff mean -0.011 median -0.009 improved 0.44 | 3D IoU A 0.418 B 0.427 diff -0.009 | found@0.35 A 0.674 B 0.723
+all ranges   n= 7509 | BEV IoU A 0.583 B 0.588 paired diff mean -0.006 median -0.003 improved 0.48 | 3D IoU A 0.465 B 0.469 diff -0.003 | found@0.35 A 0.843 B 0.879
+reference models averaged: 4
+excluded scenes []; n_gt 7509
+file                                         P@R0.60  FP@R0.60 P@R0.70  FP@R0.70 P@R0.80  FP@R0.80 P@R0.85  FP@R0.85 P@R0.90  FP@R0.90   maxR    AP35
+a45_beamdrop_s0_p0_val.jsonl.gz                0.761      1417   0.671      2579   0.463      6982       -         -       -         -  0.836  0.6573
+a45_beamdrop_s1_p0_val.jsonl.gz                0.683      2096   0.607      3406   0.443      7544       -         -       -         -  0.843  0.6405
+vz025_mf2_floor0_a45_s2_p0_val.jsonl.gz        0.822       978   0.767      1598   0.568      4570       -         -       -         -  0.848  0.7088
+a45_beamdrop_s0 0:0.560/0.475/0.719 1:0.578/0.528/0.708 2:0.557/0.480/0.706 3:0.518/0.377/0.606 4:0.492/0.326/0.736 5:0.560/0.461/0.619 6:0.599/0.532/0.698 7:0.565/0.460/0.718 8:0.619/0.540/0.720 9:0.596/0.523/0.714 10:0.589/0.505/0.729 11:0.639/0.617/0.795 12:0.630/0.604/0.755 13:0.650/0.626/0.770 14:0.650/0.617/0.786 15:0.624/0.572/0.763 16:0.651/0.627/0.777 17:0.634/0.596/0.744 18:0.629/0.591/0.737 19:0.637/0.604/0.746 | best SDS 0.6514 best APBEV 0.7946
+a45_beamdrop_s1 0:0.546/0.462/0.762 1:0.523/0.417/0.634 2:0.592/0.554/0.758 3:0.525/0.428/0.628 4:0.542/0.431/0.666 5:0.552/0.441/0.674 6:0.545/0.443/0.684 7:0.553/0.460/0.642 8:0.588/0.496/0.651 9:0.593/0.521/0.641 10:0.626/0.579/0.684 11:0.661/0.663/0.821 12:0.639/0.621/0.766 13:0.641/0.618/0.739 14:0.639/0.592/0.718 15:0.640/0.611/0.749 16:0.640/0.610/0.742 17:0.622/0.578/0.721 18:0.623/0.584/0.723 19:0.624/0.582/0.724 | best SDS 0.6609 best APBEV 0.8209
+### beamdrop done
+### rad2 trained
+loaded runs/a45_rad2_s0/best_sds.pt (epoch 15, val {"SDS": 0.6556, "mAP3D": 0.6232, "AP3D@0.30": 0.7204, "AP3D@0.35": 0.6401, "AP3D@0.40": 0.509, "AP3D@0.50": 0.1937, "APBEV@0.30": 0.8213, "APBEV@0.35": 0.7872, "APBEV@0.40": 0.7211, "APBEV@0.50": 0.5303, "TP_IoU_3D": 0.5059, "ATE_m": 0.1898, "ASE": 0.3306, "AOE_deg": 32.142, "AOE3D_deg": 37.4172, "TILT_deg": 21.0938})
+loaded runs/a45_rad2_s1/best_sds.pt (epoch 13, val {"SDS": 0.6801, "mAP3D": 0.6812, "AP3D@0.30": 0.776, "AP3D@0.35": 0.6988, "AP3D@0.40": 0.5689, "AP3D@0.50": 0.2257, "APBEV@0.30": 0.8419, "APBEV@0.35": 0.8172, "APBEV@0.40": 0.7615, "APBEV@0.50": 0.6215, "TP_IoU_3D": 0.5066, "ATE_m": 0.1839, "ASE": 0.3494, "AOE_deg": 34.6353, "AOE3D_deg": 38.6585, "TILT_deg": 18.6487})
+wrote submissions/val/members/a45_rad2_s0_p0_val.jsonl.gz 45892 boxes
+wrote submissions/val/members/a45_rad2_s0_p1_val.jsonl.gz 45355 boxes
+wrote submissions/val/members/a45_rad2_s1_p0_val.jsonl.gz 93104 boxes
+wrote submissions/val/members/a45_rad2_s1_p1_val.jsonl.gz 100473 boxes
+rad2_s0 paired near-range:
+r < 2.0 m    n= 1352 | BEV IoU A 0.492 B 0.507 paired diff mean -0.014 median -0.004 improved 0.47 | 3D IoU A 0.407 B 0.427 diff -0.019 | found@0.35 A 0.651 B 0.723
+all ranges   n= 7509 | BEV IoU A 0.586 B 0.588 paired diff mean -0.003 median -0.000 improved 0.50 | 3D IoU A 0.465 B 0.469 diff -0.003 | found@0.35 A 0.836 B 0.879
+reference models averaged: 4
+rad2_s1 paired near-range:
+r < 2.0 m    n= 1352 | BEV IoU A 0.494 B 0.507 paired diff mean -0.013 median +0.001 improved 0.50 | 3D IoU A 0.421 B 0.427 diff -0.006 | found@0.35 A 0.665 B 0.723
+all ranges   n= 7509 | BEV IoU A 0.594 B 0.588 paired diff mean +0.005 median +0.007 improved 0.54 | 3D IoU A 0.471 B 0.469 diff +0.002 | found@0.35 A 0.851 B 0.879
+reference models averaged: 4
+excluded scenes []; n_gt 7509
+file                                         P@R0.60  FP@R0.60 P@R0.70  FP@R0.70 P@R0.80  FP@R0.80 P@R0.85  FP@R0.85 P@R0.90  FP@R0.90   maxR    AP35
+a45_rad2_s0_p0_val.jsonl.gz                    0.770      1346   0.704      2208   0.557      4775       -         -       -         -  0.836  0.6675
+a45_rad2_s1_p0_val.jsonl.gz                    0.820       986   0.761      1653   0.615      3761   0.108     52557       -         -  0.851  0.7143
+vz025_mf2_floor0_a45_s2_p0_val.jsonl.gz        0.822       978   0.767      1598   0.568      4570       -         -       -         -  0.848  0.7088
+a45_rad2_s0 0:0.574/0.495/0.696 1:0.573/0.521/0.747 2:0.524/0.411/0.758 3:0.550/0.456/0.717 4:0.599/0.541/0.805 5:0.596/0.523/0.701 6:0.638/0.609/0.791 7:0.604/0.552/0.752 8:0.640/0.604/0.763 9:0.608/0.547/0.739 10:0.591/0.535/0.740 11:0.651/0.640/0.779 12:0.626/0.595/0.732 13:0.651/0.625/0.778 14:0.652/0.631/0.800 15:0.656/0.640/0.787 16:0.655/0.644/0.770 17:0.652/0.635/0.780 18:0.644/0.618/0.772 19:0.643/0.618/0.771 | best SDS 0.6556 best APBEV 0.8047
+a45_rad2_s1 0:0.559/0.472/0.709 1:0.579/0.517/0.765 2:0.584/0.556/0.761 3:0.578/0.504/0.742 4:0.588/0.525/0.745 5:0.597/0.521/0.752 6:0.578/0.505/0.715 7:0.626/0.585/0.760 8:0.621/0.571/0.742 9:0.637/0.611/0.756 10:0.654/0.646/0.788 11:0.656/0.668/0.787 12:0.641/0.638/0.779 13:0.680/0.699/0.817 14:0.676/0.700/0.796 15:0.649/0.640/0.777 16:0.646/0.628/0.766 17:0.624/0.591/0.716 18:0.641/0.619/0.739 19:0.642/0.620/0.735 | best SDS 0.6801 best APBEV 0.8172
+### rad2 done

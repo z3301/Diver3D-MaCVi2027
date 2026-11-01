@@ -1,0 +1,8 @@
+ref158                                   SDS 0.7405 mAP3D 0.7620 AP35 0.7688 AP50 0.3034 AOE3D 30.3
+track length pctiles 10/50/90: [ 1.  7. 73.]
+s * min(1, L/3)                          SDS 0.7405 mAP3D 0.7621 AP35 0.7688 AP50 0.3034 AOE3D 30.3
+s * min(1, L/5)                          SDS 0.7407 mAP3D 0.7623 AP35 0.7690 AP50 0.3035 AOE3D 30.3
+s * (0.5+0.5*min(1,L/5))                 SDS 0.7407 mAP3D 0.7624 AP35 0.7692 AP50 0.3036 AOE3D 30.3
+s * (0.7+0.3*min(1,L/10))                SDS 0.7410 mAP3D 0.7630 AP35 0.7697 AP50 0.3039 AOE3D 30.3
+s^0.5 * min(1,L/5)^0.5                   SDS 0.7407 mAP3D 0.7623 AP35 0.7690 AP50 0.3035 AOE3D 30.3
+s * log1p(L)/log1p(10) cap               SDS 0.7411 mAP3D 0.7631 AP35 0.7697 AP50 0.3039 AOE3D 30.3

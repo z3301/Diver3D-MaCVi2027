@@ -1,0 +1,13 @@
+ref158 mean                              SDS 0.7405 mAP3D 0.7620 AP50 0.3034 ASE 0.325 AOE3D 30.3
+ref158 dims=min                          SDS 0.7100 mAP3D 0.7083 AP50 0.2356 ASE 0.348 AOE3D 30.6
+ref158 * dims 0.9                        SDS 0.7212 mAP3D 0.7279 AP50 0.2638 ASE 0.347 AOE3D 30.1
+ref158 * dims 0.95                       SDS 0.7391 mAP3D 0.7591 AP50 0.3073 ASE 0.327 AOE3D 30.2
+ref158 * dims 0.97                       SDS 0.7419 mAP3D 0.7639 AP50 0.3079 ASE 0.324 AOE3D 30.3
+ref158 * dims 1.03                       SDS 0.7356 mAP3D 0.7554 AP50 0.2843 ASE 0.334 AOE3D 30.3
+ref158 * dims 1.05                       SDS 0.7279 mAP3D 0.7431 AP50 0.2608 ASE 0.343 AOE3D 30.3
+ref158 * dim[0] 0.95                     SDS 0.7414 mAP3D 0.7619 AP50 0.3026 ASE 0.321 AOE3D 30.2
+ref158 * dim[1] 0.95                     SDS 0.7418 mAP3D 0.7661 AP50 0.3006 ASE 0.331 AOE3D 30.2
+ref158 * dim[2] 0.95                     SDS 0.7415 mAP3D 0.7645 AP50 0.3155 ASE 0.326 AOE3D 30.4
+ref158 * dim[0] 1.05                     SDS 0.7379 mAP3D 0.7606 AP50 0.2973 ASE 0.335 AOE3D 30.4
+ref158 * dim[1] 1.05                     SDS 0.7384 mAP3D 0.7588 AP50 0.2971 ASE 0.327 AOE3D 30.4
+ref158 * dim[2] 1.05                     SDS 0.7373 mAP3D 0.7577 AP50 0.2804 ASE 0.331 AOE3D 30.3

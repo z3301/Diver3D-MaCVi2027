@@ -1,0 +1,14 @@
+wrote submissions/val/members/a45_occl_p0_val.jsonl.gz 60644 boxes
+wrote submissions/val/members/a45_occl_p1_val.jsonl.gz 61915 boxes
+wrote submissions/val/members/a45_occl_s1_p0_val.jsonl.gz 96520 boxes
+wrote submissions/val/members/a45_occl_s1_p1_val.jsonl.gz 97670 boxes
+### val: mixed7 + occl s0 + occl s1 (fused + refined)
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7541 mAP3D 0.7877 AP35 0.7943 AP50 0.3342 ATE 0.178 ASE 0.321 AOE3D 30.6 preds 16590
+### test file ens9o
+wrote submissions/ens9o_tta_test.jsonl.gz (658025 boxes over 8112 frames)
+wrote submissions/ens9o_tta_ref158_test.jsonl.gz
+cut done
+parsed 8112 frames / 15318 detections (0.6 MB on disk)
+  WARNING  389 frames contain no detections
+VALID (with warnings)
+### done

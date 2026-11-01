@@ -1,0 +1,21 @@
+loaded runs/vz025_floor0_iscale/best_sds.pt (epoch 15, val {"SDS": 0.6606, "mAP3D": 0.6321, "AP3D@0.30": 0.7403, "AP3D@0.35": 0.6383, "AP3D@0.40": 0.5178, "AP3D@0.50": 0.1877, "APBEV@0.30": 0.8403, "APBEV@0.35": 0.8, "APBEV@0.40": 0.7598, "APBEV@0.50": 0.592, "TP_IoU_3D": 0.5054, "ATE_m": 0.192, "ASE": 0.3418, "AOE_deg": 32.5352, "AOE3D_deg": 35.8793, "TILT_deg": 15.9278})
+ "SDS": 0.6736,
+### dims ratio on hard scenes: iscale vs floor0
+floor0  scene_0080: best IoU p50 0.29 frac>=.35 0.14 | pred/GT dims p50 l 1.20 w 1.87 h 1.15
+floor0  scene_0075: best IoU p50 0.35 frac>=.35 0.49 | pred/GT dims p50 l 1.32 w 1.35 h 1.03
+floor0  scene_0068: best IoU p50 0.42 frac>=.35 0.76 | pred/GT dims p50 l 0.92 w 0.98 h 0.82
+iscale  scene_0080: best IoU p50 0.27 frac>=.35 0.13 | pred/GT dims p50 l 1.18 w 1.86 h 1.15
+iscale  scene_0075: best IoU p50 0.34 frac>=.35 0.47 | pred/GT dims p50 l 1.17 w 1.20 h 0.95
+iscale  scene_0068: best IoU p50 0.41 frac>=.35 0.71 | pred/GT dims p50 l 0.95 w 0.97 h 0.84
+### diagnose iscale
+false positives with score >= 0.3: 4053  (TPs at this thr: 5883)
+  on empty frames: 0.516
+  empty frames: 2083; top score >= 0.3 on 0.764, >= 0.5 on 0.253
+  scene_0075: frames  1174 gt   133 upright 0.14 | SDS 0.417 mAP3D 0.128 AP35 0.120 AP50 0.003 AOE3D 22.7
+  scene_0080: frames   338 gt   496 upright 0.16 | SDS 0.337 mAP3D 0.031 AP35 0.011 AP50 0.000 AOE3D 37.3
+wrote submissions/val/members/vz025_floor0_iscale_p0_val.jsonl.gz 150426 boxes
+wrote submissions/val/members/vz025_floor0_iscale_p1_val.jsonl.gz 158827 boxes
+### floor5: floor0 x3 + mf2_floor0 + iscale
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7351 mAP3D 0.7550 AP35 0.7613 AP50 0.2979 ATE 0.181 ASE 0.329 AOE3D 31.1 preds 15720
+### legacy3 + floor0 + iscale
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7433 mAP3D 0.7664 AP35 0.7702 AP50 0.3076 ATE 0.181 ASE 0.326 AOE3D 29.9 preds 18551

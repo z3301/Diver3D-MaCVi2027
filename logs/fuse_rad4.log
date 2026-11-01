@@ -1,0 +1,1 @@
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7389 mAP3D 0.7600 AP35 0.7720 AP50 0.3095 ATE 0.177 ASE 0.324 AOE3D 31.1 preds 13936

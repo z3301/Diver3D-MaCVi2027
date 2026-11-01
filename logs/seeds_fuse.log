@@ -1,0 +1,10 @@
+wrote submissions/val/members/vz025_mf2_floor0_a45_s1_p0_val.jsonl.gz 78490 boxes
+wrote submissions/val/members/vz025_mf2_floor0_a45_s1_p1_val.jsonl.gz 76434 boxes
+wrote submissions/val/members/vz025_mf2_floor0_a45_s2_p0_val.jsonl.gz 65910 boxes
+wrote submissions/val/members/vz025_mf2_floor0_a45_s2_p1_val.jsonl.gz 72693 boxes
+### FP-aware 6: floor0 floor0_s2 mf2_floor0 mf2a45e12 a45_s1 a45_s2
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7485 mAP3D 0.7781 AP35 0.7887 AP50 0.3193 ATE 0.178 ASE 0.326 AOE3D 30.5 preds 14758
+### mixed 7: legacy3 + floor0 + mf2a45e12 + a45_s1 + a45_s2
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7550 mAP3D 0.7877 AP35 0.7942 AP50 0.3319 ATE 0.179 ASE 0.321 AOE3D 30.0 preds 17043
+### mixed 6: legacy3 + floor0 + mf2a45e12 + a45_s2
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7545 mAP3D 0.7881 AP35 0.7951 AP50 0.3254 ATE 0.179 ASE 0.324 AOE3D 30.1 preds 17458

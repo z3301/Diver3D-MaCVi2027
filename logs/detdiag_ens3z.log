@@ -1,0 +1,17 @@
+base: SDS 0.7405 AP35 0.7688 APBEV35 0.8608 AP50 0.3032
+  gt_dims       : SDS 0.8149 (+0.0744) AP35 0.8105 (+0.0416) APBEV35 0.8771 (+0.0163) AP50 0.4951
+  gt_dims_xy    : SDS 0.7946 (+0.0542) AP35 0.8149 (+0.0461) APBEV35 0.8798 (+0.0190) AP50 0.4189
+  gt_dims_z     : SDS 0.8429 (+0.1024) AP35 0.8402 (+0.0713) APBEV35 0.8771 (+0.0163) AP50 0.6576
+  shrink_near   : SDS 0.7203 (-0.0201) AP35 0.7272 (-0.0417) APBEV35 0.8678 (+0.0070) AP50 0.2773
+  shrink_near_xy: SDS 0.7315 (-0.0090) AP35 0.7478 (-0.0210) APBEV35 0.8658 (+0.0050) AP50 0.2886
+/raid/scratch/dzimmerman2021/miniconda3/lib/python3.13/site-packages/numpy/_core/fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/raid/scratch/dzimmerman2021/miniconda3/lib/python3.13/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+pooled APBEV35 0.8608 vs n_gt-weighted mean of per-scene APBEV35 0.8787 (gap +0.0179); AP35 pooled 0.7688 vs per-scene mean 0.8094 (gap +0.0406)
+per-scene APBEV35: 0000 0.969 0043 0.936 0048 0.921 0068 0.839 0075 0.179 0080 0.380 0082 0.952
+median TP score by range bin: 0-1.5: 0.26 (n 22) 1.5-2: 0.46 (n 939) 2-3: 0.54 (n 2903) 3-5: 0.58 (n 1921) 5-99: 0.47 (n 974)
+
+GT with a same-frame neighbour within 1.2 m: 64 of 7509 (0.009); found@BEV0.35 adjacent 1.000 vs isolated 0.966; found@3D0.35 adjacent 0.984 vs isolated 0.900
+  under 2.5 m: adjacent 0 found@BEV0.35 nan vs isolated 0.930

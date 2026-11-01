@@ -1,0 +1,6 @@
+wrote submissions/fp4_tta_test.jsonl.gz (263367 boxes over 8112 frames)
+wrote submissions/fp4_tta_ref158_test.jsonl.gz
+cut done
+parsed 8112 frames / 14201 detections (0.6 MB on disk)
+  WARNING  504 frames contain no detections
+VALID (with warnings)

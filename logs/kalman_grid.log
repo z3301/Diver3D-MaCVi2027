@@ -1,0 +1,20 @@
+raw                                              SDS 0.7460 mAP3D 0.7766 AP35 0.7815 AP50 0.3084 ATE 0.178 ASE 0.327 AOE3D 31.5
+window ref (1,5,8) [reference]                   SDS 0.7550 mAP3D 0.7877 AP35 0.7942 AP50 0.3319 ATE 0.179 ASE 0.321 AOE3D 30.0
+kalman centre q=0.005 r=0.01 (rot/dims off)      SDS 0.7457 mAP3D 0.7765 AP35 0.7836 AP50 0.3003 ATE 0.178 ASE 0.327 AOE3D 31.5
+kalman centre q=0.005 r=0.04 (rot/dims off)      SDS 0.7405 mAP3D 0.7675 AP35 0.7756 AP50 0.2846 ATE 0.181 ASE 0.327 AOE3D 31.6
+kalman centre q=0.005 r=0.16 (rot/dims off)      SDS 0.7258 mAP3D 0.7388 AP35 0.7428 AP50 0.2510 ATE 0.184 ASE 0.327 AOE3D 31.5
+kalman centre q=0.02 r=0.01 (rot/dims off)       SDS 0.7472 mAP3D 0.7796 AP35 0.7875 AP50 0.3058 ATE 0.178 ASE 0.327 AOE3D 31.6
+kalman centre q=0.02 r=0.04 (rot/dims off)       SDS 0.7458 mAP3D 0.7767 AP35 0.7838 AP50 0.3000 ATE 0.178 ASE 0.327 AOE3D 31.5
+kalman centre q=0.02 r=0.16 (rot/dims off)       SDS 0.7406 mAP3D 0.7677 AP35 0.7758 AP50 0.2846 ATE 0.181 ASE 0.327 AOE3D 31.6
+kalman centre q=0.08 r=0.01 (rot/dims off)       SDS 0.7470 mAP3D 0.7790 AP35 0.7859 AP50 0.3071 ATE 0.177 ASE 0.327 AOE3D 31.6
+kalman centre q=0.08 r=0.04 (rot/dims off)       SDS 0.7472 mAP3D 0.7796 AP35 0.7872 AP50 0.3056 ATE 0.178 ASE 0.327 AOE3D 31.6
+kalman centre q=0.08 r=0.16 (rot/dims off)       SDS 0.7459 mAP3D 0.7770 AP35 0.7846 AP50 0.3003 ATE 0.179 ASE 0.327 AOE3D 31.5
+kalman rot q=0.005 r=0.03 (centre/dims off)      SDS 0.7410 mAP3D 0.7684 AP35 0.7761 AP50 0.2927 ATE 0.179 ASE 0.327 AOE3D 31.9
+kalman rot q=0.005 r=0.1 (centre/dims off)       SDS 0.7416 mAP3D 0.7697 AP35 0.7791 AP50 0.2908 ATE 0.179 ASE 0.327 AOE3D 31.8
+kalman rot q=0.005 r=0.3 (centre/dims off)       SDS 0.7422 mAP3D 0.7711 AP35 0.7822 AP50 0.2846 ATE 0.179 ASE 0.327 AOE3D 31.9
+kalman rot q=0.02 r=0.03 (centre/dims off)       SDS 0.7416 mAP3D 0.7697 AP35 0.7778 AP50 0.2922 ATE 0.179 ASE 0.327 AOE3D 31.9
+kalman rot q=0.02 r=0.1 (centre/dims off)        SDS 0.7413 mAP3D 0.7691 AP35 0.7764 AP50 0.2931 ATE 0.178 ASE 0.327 AOE3D 31.9
+kalman rot q=0.02 r=0.3 (centre/dims off)        SDS 0.7413 mAP3D 0.7692 AP35 0.7790 AP50 0.2909 ATE 0.179 ASE 0.327 AOE3D 31.8
+kalman rot q=0.08 r=0.03 (centre/dims off)       SDS 0.7417 mAP3D 0.7697 AP35 0.7776 AP50 0.2967 ATE 0.179 ASE 0.327 AOE3D 31.8
+kalman rot q=0.08 r=0.1 (centre/dims off)        SDS 0.7415 mAP3D 0.7694 AP35 0.7775 AP50 0.2925 ATE 0.179 ASE 0.327 AOE3D 31.9
+kalman rot q=0.08 r=0.3 (centre/dims off)        SDS 0.7414 mAP3D 0.7693 AP35 0.7767 AP50 0.2934 ATE 0.179 ASE 0.327 AOE3D 31.9

@@ -1,0 +1,17 @@
+loaded runs/vz025_mf2_floor0_a45/best_sds_e12.pt (epoch 12, val {"SDS": 0.6926, "mAP3D": 0.6887, "AP3D@0.30": 0.7748, "AP3D@0.35": 0.7105, "AP3D@0.40": 0.5807, "AP3D@0.50": 0.2189, "APBEV@0.30": 0.8573, "APBEV@0.35": 0.8349, "APBEV@0.40": 0.7805, "APBEV@0.50": 0.6358, "TP_IoU_3D": 0.5075, "ATE_m": 0.1872, "ASE": 0.3378, "AOE_deg": 31.6933, "AOE3D_deg": 34.6978, "TILT_deg": 16.2068})
+ "SDS": 0.7167,
+### mf2a45 ep12 diagnose
+  recall ceiling @IoU 0.35 (any score): 0.873
+false positives with score >= 0.3: 1634  (TPs at this thr: 5413)
+  on empty frames: 0.398
+  empty frames: 2083; top score >= 0.3 on 0.285, >= 0.5 on 0.023
+  scene_0075: frames  1174 gt   133 upright 0.14 | SDS 0.415 mAP3D 0.091 AP35 0.086 AP50 0.031 AOE3D 19.0
+  scene_0080: frames   338 gt   496 upright 0.16 | SDS 0.361 mAP3D 0.082 AP35 0.040 AP50 0.000 AOE3D 36.7
+wrote submissions/val/members_e16/vz025_mf2_floor0_a45_p0_val.jsonl.gz 86370 boxes
+wrote submissions/val/members_e16/vz025_mf2_floor0_a45_p1_val.jsonl.gz 85586 boxes
+### mixed: legacy3 + floor0 + mf2a45e12
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7518 mAP3D 0.7804 AP35 0.7833 AP50 0.3243 ATE 0.179 ASE 0.323 AOE3D 29.5 preds 18126
+### floor family: floor0 x3 + mf2_floor0 + mf2a45e12
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7440 mAP3D 0.7697 AP35 0.7772 AP50 0.3223 ATE 0.179 ASE 0.327 AOE3D 30.6 preds 15131
+### floor compact: floor0 + floor0_s2 + mf2_floor0 + mf2a45e12
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7442 mAP3D 0.7685 AP35 0.7764 AP50 0.3104 ATE 0.179 ASE 0.329 AOE3D 29.9 preds 15040

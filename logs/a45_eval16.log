@@ -1,0 +1,7 @@
+loaded runs/vz025_floor0_a45/ep16.pt (epoch 16, val {"SDS": 0.6317, "mAP3D": 0.5767, "AP3D@0.30": 0.6863, "AP3D@0.35": 0.5814, "AP3D@0.40": 0.4623, "AP3D@0.50": 0.1991, "APBEV@0.30": 0.7972, "APBEV@0.35": 0.7677, "APBEV@0.40": 0.7102, "APBEV@0.50": 0.5362, "TP_IoU_3D": 0.5089, "ATE_m": 0.1882, "ASE": 0.3266, "AOE_deg": 33.843, "AOE3D_deg": 38.2347, "TILT_deg": 18.8624})
+ "SDS": 0.66,
+### a45 ep16
+  recall ceiling @IoU 0.35 (any score): 0.809
+false positives with score >= 0.3: 1263  (TPs at this thr: 3977)
+  on empty frames: 0.282
+  empty frames: 2083; top score >= 0.3 on 0.165, >= 0.5 on 0.035

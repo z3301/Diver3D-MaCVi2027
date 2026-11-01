@@ -1,0 +1,6 @@
+wrote submissions/floor3_tta_test.jsonl.gz (200719 boxes over 8112 frames)
+wrote submissions/floor3_tta_ref158_test.jsonl.gz
+cut done
+parsed 8112 frames / 13404 detections (0.6 MB on disk)
+  WARNING  499 frames contain no detections
+VALID (with warnings)

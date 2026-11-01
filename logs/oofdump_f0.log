@@ -1,0 +1,3 @@
+loaded runs/oof_f0/best_sds.pt (epoch 17, val {"SDS": 0.6359, "mAP3D": 0.6092, "AP3D@0.30": 0.7098, "AP3D@0.35": 0.6237, "AP3D@0.40": 0.494, "AP3D@0.50": 0.1492, "APBEV@0.30": 0.7953, "APBEV@0.35": 0.7592, "APBEV@0.40": 0.6884, "APBEV@0.50": 0.4834, "TP_IoU_3D": 0.4947, "ATE_m": 0.2059, "ASE": 0.352, "AOE_deg": 35.5115, "AOE3D_deg": 40.9005, "TILT_deg": 20.7379})
+wrote submissions/train/members/oof_f0_p0_train.jsonl.gz 85122 boxes
+wrote submissions/train/members/oof_f0_p1_train.jsonl.gz 85302 boxes

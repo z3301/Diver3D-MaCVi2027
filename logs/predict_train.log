@@ -1,0 +1,29 @@
+loaded runs/vz025_mf2/best_sds.pt (epoch 15, val {"SDS": 0.7, "mAP3D": 0.6902, "AP3D@0.30": 0.7781, "AP3D@0.35": 0.7043, "AP3D@0.40": 0.5883, "AP3D@0.50": 0.2437, "APBEV@0.30": 0.8394, "APBEV@0.35": 0.7904, "APBEV@0.40": 0.7271, "APBEV@0.50": 0.5466, "TP_IoU_3D": 0.5114, "ATE_m": 0.1809, "ASE": 0.3372, "AOE_deg": 27.1194, "AOE3D_deg": 31.7052, "TILT_deg": 17.3937})
+wrote submissions/val/vz025_mf2_train.jsonl.gz (45179 boxes over 20861 frames)
+{
+ "SDS": 0.8894,
+ "mAP3D": 0.9384,
+ "AP3D@0.30": 0.9482,
+ "AP3D@0.35": 0.9407,
+ "AP3D@0.40": 0.9263,
+ "AP3D@0.50": 0.8287,
+ "APBEV@0.30": 0.9551,
+ "APBEV@0.35": 0.9547,
+ "APBEV@0.40": 0.9531,
+ "APBEV@0.50": 0.9416,
+ "TP_IoU_3D": 0.6539,
+ "ATE_m": 0.1159,
+ "ASE": 0.2069,
+ "AOE_deg": 18.2218,
+ "AOE3D_deg": 14.0431,
+ "TILT_deg": 9.8709,
+ "_meta": {
+  "num_frames": 20861,
+  "num_gt_boxes": 19482,
+  "num_pred_boxes": 45179,
+  "num_true_positives": 19219,
+  "frames_with_no_submission": 0,
+  "tp_match_iou": 0.35,
+  "eval_seconds": 13.69
+ }
+}

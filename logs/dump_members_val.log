@@ -1,0 +1,9 @@
+loaded runs/vz025/best_sds.pt (epoch 16, val {"SDS": 0.6827, "mAP3D": 0.6585, "AP3D@0.30": 0.7455, "AP3D@0.35": 0.6689, "AP3D@0.40": 0.5611, "AP3D@0.50": 0.2104, "APBEV@0.30": 0.8262, "APBEV@0.35": 0.7982, "APBEV@0.40": 0.7371, "APBEV@0.50": 0.5472, "TP_IoU_3D": 0.5083, "ATE_m": 0.1883, "ASE": 0.3344, "AOE_deg": 27.9165, "AOE3D_deg": 32.0681, "TILT_deg": 16.8396})
+loaded runs/vz025_s1/best_sds.pt (epoch 15, val {"SDS": 0.6744, "mAP3D": 0.6621, "AP3D@0.30": 0.762, "AP3D@0.35": 0.6744, "AP3D@0.40": 0.55, "AP3D@0.50": 0.1953, "APBEV@0.30": 0.8495, "APBEV@0.35": 0.8205, "APBEV@0.40": 0.7576, "APBEV@0.50": 0.5991, "TP_IoU_3D": 0.5029, "ATE_m": 0.1985, "ASE": 0.3471, "AOE_deg": 32.7724, "AOE3D_deg": 35.489, "TILT_deg": 15.1715})
+loaded runs/vz025_mf2/best_sds.pt (epoch 15, val {"SDS": 0.7, "mAP3D": 0.6902, "AP3D@0.30": 0.7781, "AP3D@0.35": 0.7043, "AP3D@0.40": 0.5883, "AP3D@0.50": 0.2437, "APBEV@0.30": 0.8394, "APBEV@0.35": 0.7904, "APBEV@0.40": 0.7271, "APBEV@0.50": 0.5466, "TP_IoU_3D": 0.5114, "ATE_m": 0.1809, "ASE": 0.3372, "AOE_deg": 27.1194, "AOE3D_deg": 31.7052, "TILT_deg": 17.3937})
+wrote submissions/val/members/vz025_p0_val.jsonl.gz 112779 boxes
+wrote submissions/val/members/vz025_p1_val.jsonl.gz 120972 boxes
+wrote submissions/val/members/vz025_s1_p0_val.jsonl.gz 174983 boxes
+wrote submissions/val/members/vz025_s1_p1_val.jsonl.gz 173076 boxes
+wrote submissions/val/members/vz025_mf2_p0_val.jsonl.gz 111669 boxes
+wrote submissions/val/members/vz025_mf2_p1_val.jsonl.gz 108165 boxes

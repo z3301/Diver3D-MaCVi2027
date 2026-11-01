@@ -1,0 +1,6 @@
+wrote submissions/ens7m_s2dr_test.jsonl.gz
+wrote submissions/ens7m_s2dr_ref158_test.jsonl.gz
+cut done
+parsed 8112 frames / 15655 detections (0.6 MB on disk)
+  WARNING  356 frames contain no detections
+VALID (with warnings)

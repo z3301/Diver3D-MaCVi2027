@@ -1,0 +1,6 @@
+GT-sampling bank: 19481 diver instances
+loaded train=20861 val=8037 frames in 8s
+model params: 9.37M
+ep 0 it 100/2607 loss 5.230 hm 1.544 geo 1.501 rot 2.185 lr 1.00e-04 gt_target 4 0.20s/it
+ep 0 it 200/2607 loss 4.612 hm 1.283 geo 1.334 rot 1.994 lr 1.00e-04 gt_target 4 0.17s/it
+ep 0 it 300/2607 loss 4.303 hm 1.160 geo 1.253 rot 1.890 lr 1.01e-04 gt_target 4 0.16s/it

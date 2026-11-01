@@ -1,0 +1,35 @@
+### per-epoch
+a45_local_s0 0:0.584/0.525/0.745 1:0.565/0.487/0.813 2:0.562/0.499/0.714 3:0.607/0.569/0.784 4:0.601/0.561/0.740 5:0.545/0.463/0.667 6:0.562/0.473/0.729 7:0.577/0.488/0.686 8:0.558/0.463/0.679 9:0.628/0.591/0.744 10:0.617/0.568/0.719 11:0.581/0.495/0.797 12:0.592/0.522/0.780 13:0.649/0.639/0.794 14:0.607/0.549/0.771 15:0.602/0.534/0.760 16:0.616/0.562/0.758 17:0.616/0.563/0.741 18:0.622/0.569/0.737 19:0.620/0.566/0.732 | best SDS 0.6490 best APBEV 0.8131
+a45_local_s1 0:0.572/0.519/0.778 1:0.536/0.424/0.722 2:0.549/0.463/0.734 3:0.555/0.466/0.702 4:0.558/0.473/0.656 5:0.568/0.490/0.671 6:0.494/0.354/0.600 7:0.510/0.402/0.689 8:0.569/0.476/0.672 9:0.610/0.581/0.735 10:0.607/0.557/0.752 11:0.626/0.591/0.785 12:0.612/0.566/0.754 13:0.632/0.602/0.789 14:0.616/0.571/0.756 15:0.616/0.561/0.748 16:0.613/0.555/0.782 17:0.628/0.590/0.758 18:0.635/0.603/0.756 19:0.637/0.602/0.752 | best SDS 0.6366 best APBEV 0.7889
+### dumps
+loaded runs/a45_local_s0/best_sds.pt (epoch 13, val {"SDS": 0.649, "mAP3D": 0.6257, "AP3D@0.30": 0.7442, "AP3D@0.35": 0.6394, "AP3D@0.40": 0.4936, "AP3D@0.50": 0.1575, "APBEV@0.30": 0.8425, "APBEV@0.35": 0.7938, "APBEV@0.40": 0.7212, "APBEV@0.50": 0.5488, "TP_IoU_3D": 0.494, "ATE_m": 0.1979, "ASE": 0.3456, "AOE_deg": 34.6988, "AOE3D_deg": 39.5874, "TILT_deg": 19.8033})
+loaded runs/a45_local_s1/best_sds.pt (epoch 19, val {"SDS": 0.6366, "mAP3D": 0.5978, "AP3D@0.30": 0.6976, "AP3D@0.35": 0.6017, "AP3D@0.40": 0.4941, "AP3D@0.50": 0.2257, "APBEV@0.30": 0.7837, "APBEV@0.35": 0.7522, "APBEV@0.40": 0.7008, "APBEV@0.50": 0.5547, "TP_IoU_3D": 0.5121, "ATE_m": 0.1898, "ASE": 0.3374, "AOE_deg": 34.9101, "AOE3D_deg": 40.1703, "TILT_deg": 19.1322})
+wrote submissions/val/members/a45_local_s0_p0_val.jsonl.gz 75263 boxes
+wrote submissions/val/members/a45_local_s0_p1_val.jsonl.gz 73309 boxes
+wrote submissions/val/members/a45_local_s1_p0_val.jsonl.gz 46597 boxes
+wrote submissions/val/members/a45_local_s1_p1_val.jsonl.gz 44593 boxes
+local_s0 paired near-range:
+r < 2.0 m    n= 1352 | BEV IoU A 0.454 B 0.507 paired diff mean -0.053 median -0.035 improved 0.33 | 3D IoU A 0.385 B 0.427 diff -0.042 | found@0.35 A 0.564 B 0.723
+all ranges   n= 7509 | BEV IoU A 0.577 B 0.588 paired diff mean -0.011 median -0.005 improved 0.47 | 3D IoU A 0.455 B 0.469 diff -0.014 | found@0.35 A 0.814 B 0.879
+reference models averaged: 4
+local_s1 paired near-range:
+r < 2.0 m    n= 1352 | BEV IoU A 0.488 B 0.507 paired diff mean -0.018 median -0.016 improved 0.41 | 3D IoU A 0.401 B 0.427 diff -0.025 | found@0.35 A 0.598 B 0.723
+all ranges   n= 7509 | BEV IoU A 0.592 B 0.588 paired diff mean +0.004 median +0.004 improved 0.53 | 3D IoU A 0.465 B 0.469 diff -0.004 | found@0.35 A 0.810 B 0.879
+reference models averaged: 4
+excluded scenes []; n_gt 7509
+file                                         P@R0.60  FP@R0.60 P@R0.70  FP@R0.70 P@R0.80  FP@R0.80 P@R0.85  FP@R0.85 P@R0.90  FP@R0.90   maxR    AP35
+a45_local_s0_p0_val.jsonl.gz                   0.752      1490   0.687      2398   0.441      7602       -         -       -         -  0.814  0.6496
+a45_local_s1_p0_val.jsonl.gz                   0.715      1796   0.616      3276   0.257     17330       -         -       -         -  0.809  0.6279
+vz025_mf2_floor0_a45_s2_p0_val.jsonl.gz        0.822       978   0.767      1598   0.568      4570       -         -       -         -  0.848  0.7088
+### ensembles
+== mixed5loc2
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7512 mAP3D 0.7800 AP35 0.7837 AP50 0.3241 ATE 0.181 ASE 0.320 AOE3D 29.8 preds 17014
+submissions/val/ens_mixed5loc2_val.jsonl.gz: SDS 0.7512 (-0.0038) AP35 0.7837 (-0.0105) AP30 -0.0070 AP40 -0.0055 APBEV35 0.8783 (-0.0030) ATE 0.181 ASE 0.320 AOE3D 29.8
+per-scene dSDS: 0000 +0.0007 0043 -0.0105 0048 -0.0089 0068 +0.0159 0075 -0.0202 0080 -0.0008 0082 +0.0013 | up 3/7
+per-scene dAP35: 0000 +0.0010 0043 -0.0140 0048 -0.0199 0068 +0.0102 0075 -0.0412 0080 -0.0089 0082 +0.0026
+== mixed7loc2
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7543 mAP3D 0.7869 AP35 0.7911 AP50 0.3291 ATE 0.180 ASE 0.319 AOE3D 30.3 preds 16455
+submissions/val/ens_mixed7loc2_val.jsonl.gz: SDS 0.7543 (-0.0007) AP35 0.7911 (-0.0031) AP30 -0.0010 AP40 +0.0018 APBEV35 0.8810 (-0.0003) ATE 0.180 ASE 0.319 AOE3D 30.3
+per-scene dSDS: 0000 -0.0005 0043 -0.0042 0048 +0.0010 0068 +0.0090 0075 +0.0109 0080 -0.0007 0082 +0.0009 | up 4/7
+per-scene dAP35: 0000 +0.0016 0043 -0.0044 0048 -0.0013 0068 +0.0034 0075 +0.0068 0080 -0.0051 0082 +0.0052
+### done

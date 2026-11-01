@@ -1,0 +1,44 @@
+### per-epoch
+a45_rad2_s0 11:0.651/0.640/0.779 12:0.626/0.595/0.732 13:0.651/0.625/0.778 14:0.652/0.631/0.800 15:0.656/0.640/0.787 16:0.655/0.644/0.770 17:0.652/0.635/0.780 18:0.644/0.618/0.772 19:0.643/0.618/0.771 | best SDS 0.6556 best APBEV 0.8047
+a45_rad2_s1 11:0.656/0.668/0.787 12:0.641/0.638/0.779 13:0.680/0.699/0.817 14:0.676/0.700/0.796 15:0.649/0.640/0.777 16:0.646/0.628/0.766 17:0.624/0.591/0.716 18:0.641/0.619/0.739 19:0.642/0.620/0.735 | best SDS 0.6801 best APBEV 0.8172
+a45_rad2_s2 11:0.646/0.622/0.818 12:0.673/0.680/0.805 13:0.642/0.637/0.766 14:0.649/0.645/0.759 15:0.632/0.595/0.735 16:0.639/0.623/0.744 17:0.642/0.614/0.745 18:0.645/0.618/0.752 19:0.643/0.613/0.752 | best SDS 0.6728 best APBEV 0.8177
+a45_rad2_s3 11:0.614/0.585/0.782 12:0.631/0.633/0.751 13:0.616/0.582/0.741 14:0.589/0.538/0.721 15:0.642/0.620/0.767 16:0.630/0.603/0.757 17:0.629/0.613/0.749 18:0.631/0.611/0.746 19:0.628/0.609/0.739 | best SDS 0.6522 best APBEV 0.7906
+### dumps
+loaded runs/a45_rad2_s2/best_sds.pt (epoch 12, val {"SDS": 0.6728, "mAP3D": 0.6636, "AP3D@0.30": 0.7718, "AP3D@0.35": 0.6802, "AP3D@0.40": 0.5388, "AP3D@0.50": 0.1889, "APBEV@0.30": 0.8493, "APBEV@0.35": 0.8053, "APBEV@0.40": 0.7224, "APBEV@0.50": 0.5413, "TP_IoU_3D": 0.5005, "ATE_m": 0.1898, "ASE": 0.3299, "AOE_deg": 33.4082, "AOE3D_deg": 39.1202, "TILT_deg": 21.1746})
+loaded runs/a45_rad2_s3/best_sds.pt (epoch 15, val {"SDS": 0.642, "mAP3D": 0.6095, "AP3D@0.30": 0.7143, "AP3D@0.35": 0.6201, "AP3D@0.40": 0.4943, "AP3D@0.50": 0.1777, "APBEV@0.30": 0.7989, "APBEV@0.35": 0.767, "APBEV@0.40": 0.7145, "APBEV@0.50": 0.5618, "TP_IoU_3D": 0.4995, "ATE_m": 0.1844, "ASE": 0.3629, "AOE_deg": 33.9929, "AOE3D_deg": 38.6442, "TILT_deg": 18.5112})
+wrote submissions/val/members/a45_rad2_s2_p0_val.jsonl.gz 131553 boxes
+wrote submissions/val/members/a45_rad2_s2_p1_val.jsonl.gz 132976 boxes
+wrote submissions/val/members/a45_rad2_s3_p0_val.jsonl.gz 74877 boxes
+wrote submissions/val/members/a45_rad2_s3_p1_val.jsonl.gz 75945 boxes
+rad2_s2 paired near-range:
+r < 2.0 m    n= 1352 | BEV IoU A 0.513 B 0.507 paired diff mean +0.006 median +0.015 improved 0.58 | 3D IoU A 0.417 B 0.427 diff -0.010 | found@0.35 A 0.696 B 0.723
+all ranges   n= 7509 | BEV IoU A 0.581 B 0.588 paired diff mean -0.007 median -0.003 improved 0.48 | 3D IoU A 0.464 B 0.469 diff -0.005 | found@0.35 A 0.836 B 0.879
+reference models averaged: 4
+rad2_s3 paired near-range:
+r < 2.0 m    n= 1352 | BEV IoU A 0.519 B 0.507 paired diff mean +0.013 median +0.018 improved 0.59 | 3D IoU A 0.417 B 0.427 diff -0.010 | found@0.35 A 0.662 B 0.723
+all ranges   n= 7509 | BEV IoU A 0.589 B 0.588 paired diff mean +0.000 median +0.004 improved 0.52 | 3D IoU A 0.459 B 0.469 diff -0.010 | found@0.35 A 0.822 B 0.879
+reference models averaged: 4
+excluded scenes []; n_gt 7509
+file                                         P@R0.60  FP@R0.60 P@R0.70  FP@R0.70 P@R0.80  FP@R0.80 P@R0.85  FP@R0.85 P@R0.90  FP@R0.90   maxR    AP35
+a45_rad2_s0_p0_val.jsonl.gz                    0.770      1346   0.704      2208   0.557      4775       -         -       -         -  0.836  0.6675
+a45_rad2_s1_p0_val.jsonl.gz                    0.820       986   0.761      1653   0.615      3761   0.108     52557       -         -  0.851  0.7143
+a45_rad2_s2_p0_val.jsonl.gz                    0.783      1252   0.696      2291   0.567      4594       -         -       -         -  0.835  0.6862
+a45_rad2_s3_p0_val.jsonl.gz                    0.718      1772   0.625      3154   0.428      8023       -         -       -         -  0.822  0.6381
+vz025_mf2_floor0_a45_s2_p0_val.jsonl.gz        0.822       978   0.767      1598   0.568      4570       -         -       -         -  0.848  0.7088
+### ensembles (parallel)
+== mixed5rad4
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7516 mAP3D 0.7816 AP35 0.7888 AP50 0.3294 ATE 0.177 ASE 0.322 AOE3D 30.2 preds 16193
+submissions/val/ens_mixed5rad4_val.jsonl.gz: SDS 0.7516 (-0.0034) AP35 0.7888 (-0.0054) AP30 -0.0056 AP40 -0.0073 APBEV35 0.8802 (-0.0011) ATE 0.177 ASE 0.322 AOE3D 30.2
+per-scene dSDS: 0000 -0.0056 0043 -0.0053 0048 +0.0007 0068 +0.0301 0075 +0.0117 0080 +0.0006 0082 +0.0030 | up 5/7
+per-scene dAP35: 0000 -0.0040 0043 -0.0046 0048 -0.0055 0068 +0.0445 0075 +0.0279 0080 +0.0005 0082 +0.0073
+== mixed7rad2
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7533 mAP3D 0.7884 AP35 0.7969 AP50 0.3279 ATE 0.178 ASE 0.324 AOE3D 30.9 preds 16360
+submissions/val/ens_mixed7rad2_val.jsonl.gz: SDS 0.7533 (-0.0017) AP35 0.7969 (+0.0027) AP30 -0.0002 AP40 -0.0003 APBEV35 0.8831 (+0.0018) ATE 0.178 ASE 0.324 AOE3D 30.9
+per-scene dSDS: 0000 -0.0040 0043 -0.0037 0048 +0.0024 0068 +0.0142 0075 +0.0109 0080 +0.0056 0082 +0.0018 | up 5/7
+per-scene dAP35: 0000 +0.0045 0043 +0.0019 0048 +0.0003 0068 +0.0224 0075 +0.0388 0080 +0.0109 0082 +0.0056
+== rad4
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7389 mAP3D 0.7600 AP35 0.7720 AP50 0.3095 ATE 0.177 ASE 0.324 AOE3D 31.1 preds 13936
+submissions/val/ens_rad4_val.jsonl.gz: SDS 0.7389 (-0.0161) AP35 0.7720 (-0.0222) AP30 -0.0239 AP40 -0.0370 APBEV35 0.8729 (-0.0084) ATE 0.177 ASE 0.324 AOE3D 31.1
+per-scene dSDS: 0000 -0.0292 0043 -0.0141 0048 +0.0014 0068 +0.0216 0075 +0.0281 0080 -0.0004 0082 -0.0028 | up 3/7
+per-scene dAP35: 0000 -0.0174 0043 -0.0158 0048 -0.0269 0068 +0.0216 0075 +0.0809 0080 +0.0060 0082 -0.0014
+### done

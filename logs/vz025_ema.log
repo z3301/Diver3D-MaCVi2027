@@ -1,0 +1,63 @@
+GT-sampling bank: 19481 diver instances
+loaded train=20861 val=8037 frames in 8s
+model params: 9.37M
+ep 0 it 100/2607 loss 5.147 hm 1.528 geo 1.485 rot 2.133 lr 1.00e-04 gt_target 4 0.12s/it
+ep 0 it 200/2607 loss 4.548 hm 1.273 geo 1.320 rot 1.955 lr 1.00e-04 gt_target 4 0.10s/it
+ep 0 it 300/2607 loss 4.255 hm 1.152 geo 1.243 rot 1.860 lr 1.01e-04 gt_target 4 0.09s/it
+ep 0 it 400/2607 loss 4.079 hm 1.077 geo 1.201 rot 1.801 lr 1.01e-04 gt_target 4 0.09s/it
+ep 0 it 500/2607 loss 3.948 hm 1.023 geo 1.172 rot 1.753 lr 1.02e-04 gt_target 4 0.09s/it
+ep 0 it 600/2607 loss 3.841 hm 0.980 geo 1.148 rot 1.713 lr 1.03e-04 gt_target 4 0.09s/it
+ep 0 it 700/2607 loss 3.748 hm 0.945 geo 1.127 rot 1.675 lr 1.04e-04 gt_target 4 0.09s/it
+ep 0 it 800/2607 loss 3.676 hm 0.916 geo 1.112 rot 1.648 lr 1.06e-04 gt_target 4 0.09s/it
+ep 0 it 900/2607 loss 3.612 hm 0.892 geo 1.100 rot 1.620 lr 1.07e-04 gt_target 4 0.08s/it
+ep 0 it 1000/2607 loss 3.559 hm 0.870 geo 1.089 rot 1.600 lr 1.09e-04 gt_target 4 0.08s/it
+ep 0 it 1100/2607 loss 3.514 hm 0.852 geo 1.079 rot 1.582 lr 1.11e-04 gt_target 4 0.08s/it
+ep 0 it 1200/2607 loss 3.466 hm 0.834 geo 1.070 rot 1.562 lr 1.13e-04 gt_target 4 0.08s/it
+ep 0 it 1300/2607 loss 3.422 hm 0.818 geo 1.062 rot 1.542 lr 1.15e-04 gt_target 4 0.08s/it
+ep 0 it 1400/2607 loss 3.385 hm 0.803 geo 1.055 rot 1.527 lr 1.18e-04 gt_target 4 0.08s/it
+ep 0 it 1500/2607 loss 3.353 hm 0.791 geo 1.048 rot 1.514 lr 1.20e-04 gt_target 4 0.08s/it
+ep 0 it 1600/2607 loss 3.322 hm 0.779 geo 1.041 rot 1.502 lr 1.23e-04 gt_target 4 0.08s/it
+ep 0 it 1700/2607 loss 3.297 hm 0.769 geo 1.036 rot 1.492 lr 1.26e-04 gt_target 4 0.08s/it
+ep 0 it 1800/2607 loss 3.270 hm 0.759 geo 1.031 rot 1.481 lr 1.29e-04 gt_target 4 0.08s/it
+ep 0 it 1900/2607 loss 3.246 hm 0.751 geo 1.026 rot 1.470 lr 1.32e-04 gt_target 4 0.08s/it
+ep 0 it 2000/2607 loss 3.225 hm 0.742 geo 1.022 rot 1.461 lr 1.36e-04 gt_target 4 0.08s/it
+ep 0 it 2100/2607 loss 3.206 hm 0.735 geo 1.018 rot 1.453 lr 1.39e-04 gt_target 4 0.08s/it
+ep 0 it 2200/2607 loss 3.188 hm 0.729 geo 1.015 rot 1.445 lr 1.43e-04 gt_target 4 0.08s/it
+ep 0 it 2300/2607 loss 3.172 hm 0.723 geo 1.011 rot 1.439 lr 1.47e-04 gt_target 4 0.08s/it
+ep 0 it 2400/2607 loss 3.155 hm 0.716 geo 1.008 rot 1.431 lr 1.51e-04 gt_target 4 0.08s/it
+ep 0 it 2500/2607 loss 3.139 hm 0.710 geo 1.005 rot 1.424 lr 1.56e-04 gt_target 4 0.08s/it
+ep 0 it 2600/2607 loss 3.124 hm 0.705 geo 1.001 rot 1.417 lr 1.60e-04 gt_target 4 0.08s/it
+== ep 0 val SDS 0.0000 mAP3D 0.0000 AP35 0.0000 AP50 0.0000 ATE nan ASE nan AOE3D nan TILT nan preds 0 | train 214s val 21s
+ep 1 it 100/2607 loss 2.719 hm 0.562 geo 0.926 rot 1.230 lr 1.65e-04 gt_target 4 0.09s/it
+ep 1 it 200/2607 loss 2.720 hm 0.562 geo 0.924 rot 1.234 lr 1.70e-04 gt_target 4 0.08s/it
+ep 1 it 300/2607 loss 2.725 hm 0.567 geo 0.923 rot 1.235 lr 1.75e-04 gt_target 4 0.08s/it
+ep 1 it 400/2607 loss 2.714 hm 0.565 geo 0.920 rot 1.229 lr 1.80e-04 gt_target 4 0.08s/it
+ep 1 it 500/2607 loss 2.696 hm 0.558 geo 0.918 rot 1.220 lr 1.85e-04 gt_target 4 0.08s/it
+ep 1 it 600/2607 loss 2.687 hm 0.554 geo 0.916 rot 1.217 lr 1.90e-04 gt_target 4 0.08s/it
+ep 1 it 700/2607 loss 2.689 hm 0.555 geo 0.916 rot 1.218 lr 1.96e-04 gt_target 4 0.08s/it
+ep 1 it 800/2607 loss 2.692 hm 0.555 geo 0.916 rot 1.221 lr 2.01e-04 gt_target 4 0.08s/it
+ep 1 it 900/2607 loss 2.692 hm 0.556 geo 0.917 rot 1.220 lr 2.07e-04 gt_target 4 0.08s/it
+ep 1 it 1000/2607 loss 2.692 hm 0.557 geo 0.918 rot 1.218 lr 2.13e-04 gt_target 4 0.08s/it
+ep 1 it 1100/2607 loss 2.685 hm 0.556 geo 0.917 rot 1.212 lr 2.19e-04 gt_target 4 0.08s/it
+ep 1 it 1200/2607 loss 2.681 hm 0.556 geo 0.916 rot 1.209 lr 2.25e-04 gt_target 4 0.08s/it
+ep 1 it 1300/2607 loss 2.677 hm 0.555 geo 0.916 rot 1.206 lr 2.32e-04 gt_target 4 0.08s/it
+ep 1 it 1400/2607 loss 2.673 hm 0.554 geo 0.915 rot 1.204 lr 2.38e-04 gt_target 4 0.08s/it
+ep 1 it 1500/2607 loss 2.673 hm 0.554 geo 0.916 rot 1.203 lr 2.45e-04 gt_target 4 0.08s/it
+ep 1 it 1600/2607 loss 2.671 hm 0.553 geo 0.915 rot 1.202 lr 2.51e-04 gt_target 4 0.08s/it
+ep 1 it 1700/2607 loss 2.665 hm 0.552 geo 0.914 rot 1.199 lr 2.58e-04 gt_target 4 0.08s/it
+ep 1 it 1800/2607 loss 2.661 hm 0.551 geo 0.913 rot 1.197 lr 2.65e-04 gt_target 4 0.08s/it
+ep 1 it 1900/2607 loss 2.658 hm 0.549 geo 0.913 rot 1.196 lr 2.72e-04 gt_target 4 0.08s/it
+ep 1 it 2000/2607 loss 2.655 hm 0.548 geo 0.913 rot 1.194 lr 2.79e-04 gt_target 4 0.08s/it
+ep 1 it 2100/2607 loss 2.653 hm 0.547 geo 0.912 rot 1.194 lr 2.87e-04 gt_target 4 0.08s/it
+ep 1 it 2200/2607 loss 2.650 hm 0.547 geo 0.911 rot 1.192 lr 2.94e-04 gt_target 4 0.08s/it
+ep 1 it 2300/2607 loss 2.646 hm 0.546 geo 0.911 rot 1.189 lr 3.01e-04 gt_target 4 0.08s/it
+ep 1 it 2400/2607 loss 2.644 hm 0.546 geo 0.910 rot 1.188 lr 3.09e-04 gt_target 4 0.08s/it
+ep 1 it 2500/2607 loss 2.641 hm 0.545 geo 0.910 rot 1.186 lr 3.17e-04 gt_target 4 0.08s/it
+ep 1 it 2600/2607 loss 2.636 hm 0.544 geo 0.909 rot 1.184 lr 3.24e-04 gt_target 4 0.08s/it
+== ep 1 val SDS 0.0000 mAP3D 0.0000 AP35 0.0000 AP50 0.0000 ATE nan ASE nan AOE3D nan TILT nan preds 0 | train 211s val 19s
+ep 2 it 100/2607 loss 2.558 hm 0.516 geo 0.880 rot 1.162 lr 3.33e-04 gt_target 4 0.09s/it
+ep 2 it 200/2607 loss 2.570 hm 0.519 geo 0.891 rot 1.161 lr 3.41e-04 gt_target 4 0.08s/it
+ep 2 it 300/2607 loss 2.560 hm 0.521 geo 0.888 rot 1.152 lr 3.49e-04 gt_target 4 0.08s/it
+ep 2 it 400/2607 loss 2.549 hm 0.519 geo 0.889 rot 1.141 lr 3.57e-04 gt_target 4 0.09s/it
+ep 2 it 500/2607 loss 2.552 hm 0.519 geo 0.891 rot 1.142 lr 3.65e-04 gt_target 4 0.09s/it
+ep 2 it 600/2607 loss 2.548 hm 0.519 geo 0.889 rot 1.140 lr 3.74e-04 gt_target 4 0.09s/it

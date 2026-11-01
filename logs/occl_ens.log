@@ -1,0 +1,32 @@
+### all four paste runs finished
+a45_occl_s2 best: {'SDS': np.float64(0.6603144554890182), 'AP3D@0.35': 0.6724078037770864}
+occl_sf best: {'SDS': np.float64(0.663764022153874), 'AP3D@0.35': 0.6605439828995359}
+a45_occl_s3 best: {'SDS': np.float64(0.6587815150678846), 'AP3D@0.35': 0.6480047276556519}
+occl_f1 best: {'SDS': np.float64(0.6587855260351797), 'AP3D@0.35': 0.6365599650833503}
+wrote submissions/val/members/a45_occl_s2_p0_val.jsonl.gz 81350 boxes
+wrote submissions/val/members/a45_occl_s2_p1_val.jsonl.gz 80818 boxes
+wrote submissions/val/members/occl_sf_p0_val.jsonl.gz 61757 boxes
+wrote submissions/val/members/occl_sf_p1_val.jsonl.gz 61089 boxes
+wrote submissions/val/members/a45_occl_s3_p0_val.jsonl.gz 75358 boxes
+wrote submissions/val/members/a45_occl_s3_p1_val.jsonl.gz 76052 boxes
+wrote submissions/val/members/occl_f1_p0_val.jsonl.gz 138928 boxes
+wrote submissions/val/members/occl_f1_p1_val.jsonl.gz 132393 boxes
+### val: occl-only 6
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7421 mAP3D 0.7727 AP35 0.7817 AP50 0.2982 ATE 0.179 ASE 0.324 AOE3D 32.6 preds 15541
+### val: mixed7 + occl 6
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7543 mAP3D 0.7888 AP35 0.7953 AP50 0.3266 ATE 0.178 ASE 0.322 AOE3D 30.7 preds 16169
+### test file occl6
+wrote submissions/occl6_tta_test.jsonl.gz (430644 boxes over 8112 frames)
+wrote submissions/occl6_tta_ref158_test.jsonl.gz
+cut done submissions/occl6_tta_ref158_thr05_test.jsonl.gz
+parsed 8112 frames / 14665 detections (0.6 MB on disk)
+  WARNING  461 frames contain no detections
+VALID (with warnings)
+### test file ens13o
+wrote submissions/ens13o_tta_test.jsonl.gz (752176 boxes over 8112 frames)
+wrote submissions/ens13o_tta_ref158_test.jsonl.gz
+cut done submissions/ens13o_tta_ref158_thr05_test.jsonl.gz
+parsed 8112 frames / 14866 detections (0.6 MB on disk)
+  WARNING  416 frames contain no detections
+VALID (with warnings)
+### done

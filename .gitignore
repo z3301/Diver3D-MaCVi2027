@@ -1,0 +1,20 @@
+# large or licensed artefacts (kept on /raid, not in git)
+data/
+runs/
+submissions/
+# tool / plugin state
+.remember/
+__pycache__/
+*.pyc
+# third-party kit download (the needed style files are copied into paper/macvi_report)
+paper/wacv_kit_download/
+# LaTeX build products
+paper/**/*.aux
+paper/**/*.bbl
+paper/**/*.blg
+paper/**/*.brf
+paper/**/*.out
+paper/**/*.log
+paper/**/pg-*.png
+# third-party papers (arXiv PDFs and extracted text)
+assets/

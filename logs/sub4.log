@@ -1,0 +1,7 @@
+parsed 8112 frames / 467867 detections (18.3 MB on disk)
+VALID (with warnings)
+wrote submissions/ens4f_tta_test.jsonl.gz (467867 boxes over 8112 frames)
+wrote submissions/ens4f_tta_ref158_test.jsonl.gz
+parsed 8112 frames / 467867 detections (15.1 MB on disk)
+  WARNING  160 frames hit the 100-detection cap; lower-scoring detections in those frames were dropped
+VALID (with warnings)

@@ -1,0 +1,9 @@
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7550 mAP3D 0.7877 AP35 0.7942 AP50 0.3319 ATE 0.179 ASE 0.321 AOE3D 30.0 preds 17043
+nms 0.1 fuse_iou 0.45 score avg pre_thr 0.01 refine True: SDS 0.7500 mAP3D 0.7785 AP35 0.7847 AP50 0.3307 ATE 0.178 ASE 0.324 AOE3D 30.0 preds 17640
+nms 0.1 fuse_iou 0.60 score avg pre_thr 0.01 refine True: SDS 0.7129 mAP3D 0.7101 AP35 0.7175 AP50 0.3137 ATE 0.181 ASE 0.328 AOE3D 30.9 preds 20387
+nms 0.3 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7550 mAP3D 0.7878 AP35 0.7947 AP50 0.3322 ATE 0.179 ASE 0.321 AOE3D 30.0 preds 17710
+nms 0.5 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7546 mAP3D 0.7869 AP35 0.7934 AP50 0.3314 ATE 0.179 ASE 0.321 AOE3D 30.0 preds 18127
+nms 0.3 fuse_iou 0.45 score avg pre_thr 0.01 refine True: SDS 0.7501 mAP3D 0.7786 AP35 0.7847 AP50 0.3304 ATE 0.178 ASE 0.324 AOE3D 30.0 preds 18032
+nms 0.5 fuse_iou 0.45 score avg pre_thr 0.01 refine True: SDS 0.7501 mAP3D 0.7785 AP35 0.7847 AP50 0.3296 ATE 0.178 ASE 0.324 AOE3D 30.0 preds 18409
+nms 0.3 fuse_iou 0.60 score avg pre_thr 0.01 refine True: SDS 0.7128 mAP3D 0.7099 AP35 0.7172 AP50 0.3140 ATE 0.181 ASE 0.328 AOE3D 30.9 preds 20561
+nms 0.5 fuse_iou 0.60 score avg pre_thr 0.01 refine True: SDS 0.7129 mAP3D 0.7101 AP35 0.7176 AP50 0.3139 ATE 0.181 ASE 0.328 AOE3D 30.9 preds 20752

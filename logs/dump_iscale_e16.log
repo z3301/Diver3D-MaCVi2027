@@ -1,0 +1,3 @@
+loaded runs/vz025_floor0_iscale/best_sds_e16.pt (epoch 16, val {"SDS": 0.6553, "mAP3D": 0.623, "AP3D@0.30": 0.7388, "AP3D@0.35": 0.6283, "AP3D@0.40": 0.5021, "AP3D@0.50": 0.2043, "APBEV@0.30": 0.836, "APBEV@0.35": 0.8083, "APBEV@0.40": 0.7522, "APBEV@0.50": 0.5932, "TP_IoU_3D": 0.5046, "ATE_m": 0.1906, "ASE": 0.3457, "AOE_deg": 32.7918, "AOE3D_deg": 36.103, "TILT_deg": 16.613})
+wrote submissions/val/members_e16/vz025_floor0_iscale_p0_val.jsonl.gz 79069 boxes
+wrote submissions/val/members_e16/vz025_floor0_iscale_p1_val.jsonl.gz 77331 boxes

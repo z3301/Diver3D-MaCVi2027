@@ -1,0 +1,27 @@
+loaded runs/vz025_floor0/best_sds.pt (epoch 16, val {"SDS": 0.6747, "mAP3D": 0.6562, "AP3D@0.30": 0.7588, "AP3D@0.35": 0.6649, "AP3D@0.40": 0.5451, "AP3D@0.50": 0.2052, "APBEV@0.30": 0.8443, "APBEV@0.35": 0.8087, "APBEV@0.40": 0.757, "APBEV@0.50": 0.5869, "TP_IoU_3D": 0.5042, "ATE_m": 0.1919, "ASE": 0.3458, "AOE_deg": 30.2131, "AOE3D_deg": 34.4784, "TILT_deg": 17.6633})
+wrote submissions/val/floor0_tta_val.jsonl.gz (16509 boxes over 8037 frames)
+ "SDS": 0.6938,
+### diagnose floor0 single (TTA)
+  recall ceiling @IoU 0.35 (any score): 0.833
+false positives with score >= 0.3: 1634  (TPs at this thr: 5105)
+  on empty frames: 0.296
+  near-miss (IoU to some GT in [0.1,0.35)): 0.435
+  spurious (IoU < 0.1, frame has GT): 0.270
+  FP score: median 0.44, 90th pct 0.60; TP score median 0.55
+  empty frames: 2083; top score >= 0.3 on 0.222, >= 0.5 on 0.058
+### diagnose vz025 single (TTA) for comparison
+loaded runs/vz025/best_sds.pt (epoch 16, val {"SDS": 0.6827, "mAP3D": 0.6585, "AP3D@0.30": 0.7455, "AP3D@0.35": 0.6689, "AP3D@0.40": 0.5611, "AP3D@0.50": 0.2104, "APBEV@0.30": 0.8262, "APBEV@0.35": 0.7982, "APBEV@0.40": 0.7371, "APBEV@0.50": 0.5472, "TP_IoU_3D": 0.5083, "ATE_m": 0.1883, "ASE": 0.3344, "AOE_deg": 27.9165, "AOE3D_deg": 32.0681, "TILT_deg": 16.8396})
+ "SDS": 0.6901,
+  recall ceiling @IoU 0.35 (any score): 0.839
+false positives with score >= 0.3: 3730  (TPs at this thr: 5754)
+  on empty frames: 0.565
+  near-miss (IoU to some GT in [0.1,0.35)): 0.234
+  spurious (IoU < 0.1, frame has GT): 0.201
+  FP score: median 0.44, 90th pct 0.58; TP score median 0.57
+  empty frames: 2083; top score >= 0.3 on 0.754, >= 0.5 on 0.251
+### dump floor0 passes + 4-member fusion
+wrote submissions/val/members/vz025_floor0_p0_val.jsonl.gz 68499 boxes
+wrote submissions/val/members/vz025_floor0_p1_val.jsonl.gz 66226 boxes
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7448 mAP3D 0.7686 AP35 0.7715 AP50 0.3125 ATE 0.181 ASE 0.325 AOE3D 29.8 preds 18410
+### floor0 replacing vz025_s1
+nms 0.1 fuse_iou 0.30 score avg pre_thr 0.01 refine True: SDS 0.7431 mAP3D 0.7635 AP35 0.7686 AP50 0.3100 ATE 0.176 ASE 0.326 AOE3D 29.7 preds 17913

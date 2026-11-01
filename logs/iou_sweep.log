@@ -1,0 +1,15 @@
+### iou_alpha=0.0 (single model, TTA)
+loaded runs/vz025_mf2_iou/best_sds_a0.0.pt (epoch 19, val {"SDS": 0.6729, "mAP3D": 0.646, "AP3D@0.30": 0.7476, "AP3D@0.35": 0.6619, "AP3D@0.40": 0.5285, "AP3D@0.50": 0.1767, "APBEV@0.30": 0.8346, "APBEV@0.35": 0.8009, "APBEV@0.40": 0.743, "APBEV@0.50": 0.5659, "TP_IoU_3D": 0.5067, "ATE_m": 0.1922, "ASE": 0.3359, "AOE_deg": 30.0997, "AOE3D_deg": 33.535, "TILT_deg": 16.8894})
+ "SDS": 0.6859,
+ "mAP3D": 0.6666,
+ "AP3D@0.50": 0.2087,
+### iou_alpha=0.3 (single model, TTA)
+loaded runs/vz025_mf2_iou/best_sds_a0.3.pt (epoch 19, val {"SDS": 0.6729, "mAP3D": 0.646, "AP3D@0.30": 0.7476, "AP3D@0.35": 0.6619, "AP3D@0.40": 0.5285, "AP3D@0.50": 0.1767, "APBEV@0.30": 0.8346, "APBEV@0.35": 0.8009, "APBEV@0.40": 0.743, "APBEV@0.50": 0.5659, "TP_IoU_3D": 0.5067, "ATE_m": 0.1922, "ASE": 0.3359, "AOE_deg": 30.0997, "AOE3D_deg": 33.535, "TILT_deg": 16.8894})
+ "SDS": 0.68,
+ "mAP3D": 0.6549,
+ "AP3D@0.50": 0.2033,
+### iou_alpha=0.5 (single model, TTA)
+loaded runs/vz025_mf2_iou/best_sds_a0.5.pt (epoch 19, val {"SDS": 0.6729, "mAP3D": 0.646, "AP3D@0.30": 0.7476, "AP3D@0.35": 0.6619, "AP3D@0.40": 0.5285, "AP3D@0.50": 0.1767, "APBEV@0.30": 0.8346, "APBEV@0.35": 0.8009, "APBEV@0.40": 0.743, "APBEV@0.50": 0.5659, "TP_IoU_3D": 0.5067, "ATE_m": 0.1922, "ASE": 0.3359, "AOE_deg": 30.0997, "AOE3D_deg": 33.535, "TILT_deg": 16.8894})
+ "SDS": 0.6708,
+ "mAP3D": 0.6366,
+ "AP3D@0.50": 0.1952,

@@ -1,0 +1,17 @@
+vz025_floor0 best epoch 16
+vz025_floor0_s1 best epoch 18
+vz025_floor0_s2 best epoch 16
+vz025_mf2_floor0 best epoch 18
+vz025_floor0_iscale best epoch 15
+loaded runs/vz025_floor0_iscale/ep15.pt (epoch 15, val {"SDS": 0.6606, "mAP3D": 0.6321, "AP3D@0.30": 0.7403, "AP3D@0.35": 0.6383, "AP3D@0.40": 0.5178, "AP3D@0.50": 0.1877, "APBEV@0.30": 0.8403, "APBEV@0.35": 0.8, "APBEV@0.40": 0.7598, "APBEV@0.50": 0.592, "TP_IoU_3D": 0.5054, "ATE_m": 0.192, "ASE": 0.3418, "AOE_deg": 32.5352, "AOE3D_deg": 35.8793, "TILT_deg": 15.9278})
+ "SDS": 0.6737,
+### iscale ep15
+false positives with score >= 0.3: 4052  (TPs at this thr: 5883)
+  on empty frames: 0.516
+  empty frames: 2083; top score >= 0.3 on 0.764, >= 0.5 on 0.253
+loaded runs/vz025_floor0_iscale/ep18.pt (epoch 18, val {"SDS": 0.6506, "mAP3D": 0.6142, "AP3D@0.30": 0.7274, "AP3D@0.35": 0.6212, "AP3D@0.40": 0.4938, "AP3D@0.50": 0.1905, "APBEV@0.30": 0.8265, "APBEV@0.35": 0.7966, "APBEV@0.40": 0.7494, "APBEV@0.50": 0.5968, "TP_IoU_3D": 0.5042, "ATE_m": 0.1944, "ASE": 0.3465, "AOE_deg": 32.4424, "AOE3D_deg": 35.8378, "TILT_deg": 16.147})
+ "SDS": 0.6711,
+### iscale ep18
+false positives with score >= 0.3: 1620  (TPs at this thr: 4599)
+  on empty frames: 0.266
+  empty frames: 2083; top score >= 0.3 on 0.197, >= 0.5 on 0.045

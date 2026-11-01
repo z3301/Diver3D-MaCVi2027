@@ -1,0 +1,6 @@
+wrote submissions/fp6_tta_test.jsonl.gz (373270 boxes over 8112 frames)
+wrote submissions/fp6_tta_ref158_test.jsonl.gz
+cut done
+parsed 8112 frames / 13526 detections (0.6 MB on disk)
+  WARNING  533 frames contain no detections
+VALID (with warnings)
